@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[WebView webView:shouldStartLoadWithRequest:navigationType:]:WebView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Cache updateCacheByUrl:]:Cache.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BT4Client peripheral:didUpdateValueForCharacteristic:error:]:BT4Client.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__24-[Cache getDataFromBT4:]_block_invoke_2:Cache.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Cache writeString:toFile:]:Cache.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSString *)content">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

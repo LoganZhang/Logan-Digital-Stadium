@@ -1,0 +1,553 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+    margin: 0
+}
+
+p {
+	color: #6f6f6f
+}
+
+.blq-rst,.blq-rst * {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: inherit;
+	border: 0;
+	padding: 0;
+	margin: 0
+}
+
+body {
+	background-color: #FFF;
+	color: #6f6f6f;
+	font-size: 14px;
+	font-family: Arial, Verdana, Geneva, Helvetica, Sans-Serif;
+    margin: 0
+}
+
+button {
+	cursor: pointer
+}
+
+#blq-debug {
+	display: none
+}
+
+.blq-hide {
+	position: absolute;
+	left: -2500px;
+	width: 1px;
+	overflow: hidden
+}
+
+#blq-container {
+	width: 100%;
+	overflow: hidden
+}
+
+#blq-mast {
+	min-width: 240px;
+	overflow: hidden;
+	font-size: 12px
+}
+
+#blq-mast h2 {
+	position: absolute;
+	left: -999em
+}
+
+#blq-mast-bar {
+	overflow: hidden;
+	border-bottom: 1px solid #CCC
+}
+
+#blq-blocks {
+	float: left
+}
+
+#blq-blocks a {
+	display: block;
+	width: 57px;
+	height: 25px;
+	margin: 0 5px 0 8px;
+	background: transparent url(../img/blocks_240.png) 0 50% no-repeat;
+	text-indent: -999em
+}
+
+#blq-nav {
+	list-style: none;
+	float: right
+}
+
+#blq-nav li {
+	float: left;
+	display: none;
+	overflow: hidden;
+	border-left: 1px solid #CCC;
+	white-space: nowrap
+}
+
+#blq-nav .blq-core {
+	display: block
+}
+
+#blq-nav a {
+	display: block;
+	text-align: center;
+	padding: 4px 6px 4px 6px;
+	color: #585858;
+	line-height: 17px;
+	font-weight: bold;
+	text-decoration: none
+}
+
+#blq-nav .noRLPad a {
+	padding-right: 0;
+	padding-left: 0
+}
+
+#blq-nav a.blq-highlighted {
+	padding-bottom: 0;
+	border-bottom: 4px solid #CCC;
+	outline: 0
+}
+
+#idcta-logo {
+	vertical-align: text-bottom
+}
+
+#blq-mast .blq-anim,#blq-mast .blq-anim li {
+	transition: height .3s ease-out;
+	-o-transition: height .3s ease-out;
+	-moz-transition: height .3s ease-out;
+	-webkit-transition: height .3s ease-out
+}
+
+#blq-mast .blq-anim-hide {
+	position: relative;
+	height: 0;
+	overflow: hidden
+}
+
+#blq-panel.blq-show {
+	border-bottom: 1px solid #CCC
+}
+
+#blq-more-panel.blq-show {
+	height: 244px
+}
+
+#blq-signin-panel.blq-show {
+	height: 188px
+}
+
+#blq-signin-panel.blq-placeholder.blq-show {
+	height: 156px
+}
+
+.blq-more-panel ul {
+	margin: 16px 0 0 0
+}
+
+.blq-more-panel li {
+	float: left;
+	width: 49%;
+	margin-left: -1px;
+	border-left: 1px solid #eaeaea;
+	list-style: none
+}
+
+.blq-more-panel a {
+	display: block;
+	padding: 5px 10px;
+	color: #6f6f6f;
+	text-decoration: none
+}
+
+.blq-more-panel a:focus,.blq-more-panel a:hover {
+	text-decoration: underline
+}
+
+#blq-signin-panel {
+	padding: 0 14px
+}
+
+#blq-signin-panel form {
+	max-width: 320px;
+	padding-top: 14px
+}
+
+#blq-signin-panel .blq-username label,#blq-signin-panel .blq-password label
+	{
+	font-weight: bold
+}
+
+#blq-signin-panel.blq-placeholder .blq-username label,#blq-signin-panel.blq-placeholder .blq-password label
+	{
+	position: absolute;
+	left: -999em
+}
+
+#blq-signin-panel input {
+	padding: 6px;
+	border: 1px solid #CCC
+}
+
+#blq-signin-panel .blq-username input,#blq-signin-panel .blq-password input
+	{
+	width: 95%;
+	margin-bottom: 8px;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0
+}
+
+#blq-signin-panel .blq-remember {
+	float: right;
+	padding-top: 5px;
+	color: #676767
+}
+
+#blq-signin-panel .blq-signin {
+	float: left;
+	clear: left;
+	width: 40%
+}
+
+#blq-signin-panel .blq-signin input {
+	margin-bottom: 8px;
+	border-color: #6c6c6c;
+	background: #676767;
+	color: #FFF;
+	font-weight: bold;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0
+}
+
+#blq-signin-panel ul {
+	clear: both;
+	padding-bottom: 10px
+}
+
+#blq-signin-panel li {
+	float: left;
+	padding: 0 5px;
+	border-left: 1px solid #CCC;
+	list-style: none
+}
+
+#blq-signin-panel .blq-first {
+	padding-left: 0;
+	border-left: none
+}
+
+#blq-signin-panel li a {
+	color: #676767;
+	text-decoration: none
+}
+
+#blq-signin-panel li a:focus,#blq-signin-panel li a:hover {
+	text-decoration: underline
+}
+
+#blq-foot {
+	color: #FFF;
+	background: #313131;
+	clear: both;
+	overflow: hidden
+}
+
+#blq-foot h2 {
+	margin: 22px 10px 20px 10px;
+	font-weight: bold;
+	font-size: 14px
+}
+
+#blq-foot ul,#blq-foot p {
+	color: #FFF
+}
+
+#blq-foot a {
+	color: #FFF;
+	text-decoration: none
+}
+
+#blq-foot a:hover {
+	text-decoration: underline
+}
+
+#blq-foot .blq-more-panel {
+	*margin-bottom: 19px
+}
+
+#blq-foot .blq-more-panel ul li {
+	border-left: 1px solid #5f5f5f
+}
+
+#blq-foot .blq-more-panel li:nth-of-type(-n+2) a {
+	padding-top: 0
+}
+
+#blq-foot .blq-more-panel li:nth-last-of-type(-n+1) a {
+	padding-bottom: 0
+}
+
+#blq-foot-extra {
+	list-style: none
+}
+
+#blq-foot-extra li {
+	padding: 5px 9px
+}
+
+#blq-foot hr {
+	clear: both;
+	border-bottom: 1px solid #5f5f5f;
+	margin: 0 8px;
+	padding-top: 19px
+}
+
+#blq-foot-links ul {
+	padding: 17px 0 3px 0;
+	font-size: 12px
+}
+
+#blq-foot-links ul li {
+	float: left;
+	list-style: none;
+	width: 49%;
+	vertical-align: top;
+	height: 100%
+}
+
+#blq-foot-links ul li a {
+	display: block;
+	height: 2.5em;
+	padding: 2px 11px
+}
+
+#blq-copyright {
+	padding: 0 11px 20px 11px;
+	font-size: 12px;
+	font-weight: bold;
+	clear: both;
+	white-space: nowrap
+}
+
+#bbccookies {
+	background-color: #323232;
+	padding: 16px 0;
+	overflow: hidden
+}
+
+#bbccookies-prompt {
+	width: auto;
+	margin: 0 auto;
+	padding: 0 8px
+}
+
+#bbccookies-prompt,#bbccookies-prompt button {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+#bbccookies-prompt h2 {
+	margin-bottom: 15px;
+	color: #FFF;
+	font-size: 1.29em;
+	font-weight: bold;
+	line-height: 1.12
+}
+
+#bbccookies-prompt p {
+	width: 210px;
+	color: #bebebe;
+	font-size: .93em;
+	line-height: 1.24
+}
+
+#bbccookies-prompt a:hover {
+	color: #FFF
+}
+
+#bbccookies-prompt ul {
+	margin-top: 15px;
+	font-weight: bold;
+	list-style: none
+}
+
+#bbccookies-continue button:hover,#bbccookies-more a:hover,#bbccookies-settings a:hover
+	{
+	color: #FFF
+}
+
+#bbccookies-continue button,#bbccookies-more a,#bbccookies-settings a {
+	background-image: url(../img/bbccookies/cookie_prompt_sprite.png);
+	background-color: transparent;
+	background-repeat: no-repeat
+}
+
+#bbccookies-continue button {
+	padding: 0 0 0 24px;
+	*padding-left: 7px;
+	background-position: 0 -251px;
+	color: #f6a21d;
+	font-size: 1.29em;
+	border: 0;
+	cursor: pointer
+}
+
+#bbccookies-continue button:hover {
+	background-position: 0 -314px
+}
+
+#bbccookies-more a,#bbccookies-settings a {
+	padding-left: 24px;
+	color: #f6a21d;
+	font-size: .93em;
+	line-height: 1.7;
+	display: block
+}
+
+#bbccookies-more a {
+	background-position: 1px -123px
+}
+
+#bbccookies-settings a {
+	background-position: 1px 4px
+}
+
+#bbccookies-more a:hover {
+	background-position: 1px -187px
+}
+
+#bbccookies-settings a:hover {
+	background-position: 1px -59px
+}
+
+@media screen and (min-width:320px) {
+	#blq-mast {
+		font-size: 14px
+	}
+	#blq-blocks a {
+		width: 74px;
+		height: 22px;
+		background-image: url(../img/blocks_320.png);
+		background-image:
+			url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAAAVCAIAAABuau8EAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtNJREFUeNrsV0+E6lEYnaanVatHREREq4hHRBlajMkw24i2bxUREa0iolUjWkWLMathVjNiMoko0ZAiUoqISInSmEV6Rx/X703/7v3VYx5zVrfvzj1zz73fd+73U5wdjdVqxcYKheJLsSm+5X1ReTqdTqvVYvD+/t5sNrnY9Xr96m98fHyUSiW/369SqXZtiIGHrVgs+nw+pVIpysZUxWKxbrf7ifbl5QW0Go1GTB5DoVDYqlBIHgN2I8oGBIPBxWKx2o16vc4lL5vN/lrD4/FUq1UK4njkyUun07/XSCQSbH/4KcSWTCbZ1OvrKzZDO7y5uQmHw0gxAXn39/csaDAYKPj09CRPHs6IBQOBAAUfHx/52bxeLwWn06mUTQpIRd5KIz94CnK5XJ6dDv1+nwawBM4lKNRIJEI7cblc5XJ565+9rSGNnB+khjulUikaPz8/H6kNpY/bo3Eul+NcZbPZkEEY3N3d7dIm5pzj8RglJzWoTCaz1e54khM81TVY4bEj42GLRqMUQZkJydmZnD/XYD+RSDA63ORgMJBxaoY1pGxqtRo3ORqNeJbT+wb0er3TyOt0Ovl8HgOoQm6YTCYU9PX1tcPhaDQaovJABUJKTqvVircLVnF1dXV5eVmr1Q4uZ1V64FnjT06pcwJ2ux1P51bzFHVOIBQKURxuzsOG5RSJx+P/RB4AYTQlTVp58lDD8HeaQpYeZMN/pKKFI7BE5cE5vzUbjUY2PtI/kZxMFQ/bZDK5vb0lnTjlXQoxi7ZBrGsB3G43OjKKw/1kJCe6CsaG9rXdbgslJ1kA9SX0siNLnU4ntXU4LOzw4eGBblhmzwnMZjOLxXKSnpN2aTab+dlw4axA9kCOPAhDNUrN/Rh5xIZZGV8MuKhKpbLJiavDBV5cXOz73sN1b57ocDjc89zt+UI7LdunlxB5RAc0n89brRYemM3m8ftr/X+W90eAAQDNFRRi8pdCDAAAAABJRU5ErkJggg==);
+		margin: 5px;
+		margin-left: 8px
+	}
+	#blq-nav a {
+		line-height: 24px;
+		padding-right: 12px;
+		padding-left: 12px
+	}
+	.opera #blq-nav a {
+		padding-right: 10px;
+		padding-left: 11px
+	}
+	.blq-more-panel li,#blq-foot-links ul li {
+		width: 32%
+	}
+	#blq-foot .blq-more-panel ul {
+		margin-top: 8px
+	}
+	#blq-foot .blq-more-panel li:nth-of-type(-n+3) a {
+		padding-top: 0
+	}
+	#blq-foot .blq-more-panel li:nth-last-of-type(-n+3) a {
+		padding-bottom: 0
+	}
+	#blq-foot .blq-more-panel a {
+		padding: 14px 10px 14px 10px
+	}
+	#blq-more-panel.blq-show {
+		height: 216px
+	}
+	.blq-more-panel a {
+		padding: 10px 10px
+	}
+	#blq-signin-panel .blq-remember,#blq-signin-panel li {
+		font-size: .85em
+	}
+	#bbccookies {
+		-webkit-text-size-adjust: none
+	}
+	#bbccookies-prompt p {
+		width: auto
+	}
+	#bbccookies-prompt ul li {
+		margin-top: 19px
+	}
+}
+
+@media screen and (min-width:480px) {
+	#blq-nav a {
+		padding-right: 8px;
+		padding-left: 8px
+	}
+	.opera #blq-nav a {
+		padding-right: 7px;
+		padding-left: 8px
+	}
+	#blq-nav li {
+		display: block
+	}
+	#blq-foot-links ul li:nth-of-type(3n+2) {
+		margin-left: 6%
+	}
+	#blq-foot-links ul li:nth-of-type(3n+3) {
+		float: right;
+		width: 28%
+	}
+	#blq-foot .blq-more-panel li:nth-of-type(-n+4) a {
+		padding-top: 0
+	}
+	#blq-foot .blq-more-panel li:nth-last-of-type(-n+3) a {
+		padding-bottom: 0
+	}
+	#blq-more-panel.blq-show {
+		height: 144px
+	}
+	#blq-mast .blq-more-panel .blq-light {
+		display: none
+	}
+	.blq-more-panel li {
+		width: 24%
+	}
+	#bbccookies-prompt ul li {
+		float: left;
+		margin-top: 19px;
+		margin: 0 28px 0 0
+	}
+}
+
+@media
+only
+screen
+and
+(-webkit-min-device-pixel-ratio:1.5)
+,
+only
+screen
+and
+(-o-min-device-pixel-ratio:3/
+@media screen and (min-width:1px) {
+	#blq-foot-extra,#blq-foot #blq-foot-links ul {
+		float: left;
+		width: 100%
+	}
+	#blq-copyright,#blq-foot .blq-more-panel,#blq-foot-extra a,#blq-foot-links
+		{
+		float: left;
+		min-width: 100%
+	}
+}

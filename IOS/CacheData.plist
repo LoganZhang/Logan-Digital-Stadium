@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=news&amp;value=brighton-and-hove-albion</key>
+	<string>news</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=players&amp;value=brighton-and-hove-albion</key>
+	<string>players</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=buses&amp;value=8242</key>
+	<string>buses_8242</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/twitter/club/bhafc/fans?since_id=1</key>
+	<string>twitter_fans</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=fixtures&amp;value=brighton-and-hove-albion</key>
+	<string>fixtures</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/twitter/club/bhafc?since_id=1</key>
+	<string>twitter_club</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=buses&amp;value=7136</key>
+	<string>buses_7136</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=buses&amp;value=6483</key>
+	<string>buses_6483</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=table&amp;value=Championship</key>
+	<string>leaguetable_championship</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=table&amp;value=Premiership</key>
+	<string>leaguetable_premiership</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=table&amp;value=League1</key>
+	<string>leaguetable_league1</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=table&amp;value=League2</key>
+	<string>leaguetable_league2</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=livescore&amp;value=Championship</key>
+	<string>livescores_championship</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=current&amp;value=brighton-and-hove-albion</key>
+	<string>currentmatch</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=livescore&amp;value=League%202</key>
+	<string>livescores_league2</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=livescore&amp;value=League%201</key>
+	<string>livescores_league1</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=livescore&amp;value=Premiership</key>
+	<string>livescores_premiership</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=livescore&amp;value=FA%20Cup</key>
+	<string>livescores_fa</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=livescore&amp;value=Champions%20League</key>
+	<string>livescores_championsleague</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=livescore&amp;value=Europa%20League</key>
+	<string>livescores_europaleague</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=results&amp;value=brighton-and-hove-albion</key>
+	<string>results</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=traffic&amp;value=brighton-and-hove-albion</key>
+	<string>traffic</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=trains&amp;value=FMR</key>
+	<string>trains_fmr</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=trains&amp;value=BTN</key>
+	<string>trains_btn</string>
+	<key>http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&amp;pageType=trains&amp;value=LWS</key>
+	<string>trains_lws</string>
+</dict>
+</plist>

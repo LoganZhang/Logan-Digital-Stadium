@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Bus Times
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <style type="text/css">
+        .center{
+            text-align:center;
+        }
+        body{
+         background-color: #424242;
+        font-family: Arial, Verdana, Geneva, Helvetica, Sans-Serif;
+        }
+
+        table{
+        width: 100%;
+        color: #4f4d4b;
+        background-color: #eef2f4;
+        border-spacing: 2px;
+        border-color: gray;
+        }
+
+        td{
+            padding: 6px;
+            background-color: #eef2f4;
+            border-bottom: 1px solid #fff;
+        }
+        th{
+            padding: 6px;
+            color: #fff;
+            background-color: #5e5e5e;
+        }
+
+        h2{
+            color:white;
+        }
+
+
+    </style>
+
+    <script  src="js/jquery.min.js"></script>
+    <script>
+
+
+        var url = 'http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&pageType=buses&value=';
+
+        var timer = null;
+
+        $(document).ready(function() {
+
+        
+            loadData(url,"8242" );
+            scheduleTimer();
+
+            $('#tableName').change(function() {
+
+                loadData(url,$('#tableName').val());
+
+                scheduleTimer();
+
+                if($('#tableName').val()=="8242")
+                {
+                    $('#station-name').html("Amex");
+                }
+                else if($('#tableName').val() == "7136")
+                {
+                    $('#station-name').html("A27 - Towards Lewes");
+                }
+                else
+                {
+                    $('#station-name').html("A27 - Towards Brighton");
+                }
+
+                $('#splash').show();
+                $('#hide').show();
+
+
+            });
+        });
+
+        function processData(data)
+        {
+            $('title').html(data.title);
+
+            var busTimes = JSON.parse(data.content);
+
+            var rows = "";
+            for(var i=0;i< busTimes.length; i++)
+            {
+                rows+="<tr><td style='color:#1659b4'>"+busTimes[i].destination+"</td><td class='center'>"+busTimes[i].departureTime+"</td><td class='center'>"+busTimes[i].busNumber+"</td></tr>";
+
+            }
+
+            rows = "<table><tr><th>Destination</th><th>Time</th><th>Service</th></tr>"+rows+"</table>";
+            $('#bus-content').html(rows);
+
+            //$('#ds-original-url').html(data.originalUrl);
+            $('#splash').hide();
+            $('#container').show();
+
+            scheduleTimer();
+
+        }
+
+        function setUpdated(updatedTime, colour)
+        {
+            $('#last-updated').html(updatedTime);
+            $('#last-updated').css('backgroundColor', colour);
+        }
+        
+        function clearUserTimeout()
+        {
+            if(timer!=null)
+            {
+                clearTimeout(timer);
+                timer = null;
+            }
+        }
+
+
+        function scheduleTimer()
+        {
+            clearUserTimeout();
+
+            timer = setTimeout(function(){
+
+                    loadData(url,$('#tableName').val() );
+                    scheduleTimer();
+
+            }, 30000);
+
+
+        }
+        
+        function ajaxCall(localUrl)
+        {
+            $.ajax({
+                   type: 'GET',
+                   url: localUrl,
+                   async: false,
+                   jsonpCallback: 'processData',
+                   contentType: "application/json",
+                   dataType: 'jsonp',
+                   success: function(json) {
+                   console.dir(json.sites);
+                   },
+                   error: function(e) {
+                   console.log(e.message);
+                   }
+                   });
+        }
+        
+        function loadData(webUrl, vars)
+        {
+            
+            window.location="/loaddata/"+webUrl+vars;
+            
+        }
+
+    </script>
+</head>
+
+<body>
+
+<h2>Live Departures - <span id='station-name'>Amex</span></h2>
+
+<form id="tableSelect">
+    <label for="tableName" style="color:white; font-size: 15px ">Select Station: </label>
+    <select name="tableName" id="tableName" form="tableSelect">
+        <option value="8242">Amex</option>
+        <option value="7136">A27 - Towards Lewes</option>
+        <option value="6483">A27 - Towards Brighton</option>
+    </select>
+</form>
+
+<div id='splash' style="min-height:1000px">
+    <div >
+        <img style="
+            position:fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -30px;
+            margin-left: -50px;" src="img/ajax-loader.gif" />
+    </div>
+</div>
+<div id='container' style='display:none; margin-top:10px' >
+
+
+    <p style='margin-top:5px;margin-bottom:5px; color:white; font-size:14px;'>Updated: <span style='color:black' id='last-updated'></span> </p>
+
+    <div id="bus-content">
+
+    </div>
+
+    <div data-role="footer" id="acknowledgement">
+        <p style="color:white">Bus Times reworked by digitalStadium</p>
+    </div>
+</div>
+</body>
+</html>

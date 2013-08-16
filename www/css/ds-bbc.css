@@ -1,0 +1,697 @@
+/* 
+    Document   : ds-bbc.css
+    Created on : 25-Feb-2013, 09:41:35
+    Author     : ianw
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@CHARSET "ISO-8859-1";
+
+.spr-football {
+	display: block;
+	overflow: hidden;
+	text-indent: -7999em;
+	background-image: url(../img/base-football-optimised.png);
+	background-repeat: no-repeat
+}
+
+#blq-blocks a {
+	display: block;
+	width: 57px;
+	height: 25px;
+	margin: 0 5px 0 8px;
+	background: transparent url(../img/blocks_240.png) 0 50% no-repeat;
+	text-indent: -999em
+}
+
+.ft .movement {
+	width: 12px;
+	height: 0;
+	margin-top: 5px;
+	padding-top: 7px;
+	float: right
+}
+
+.ft .movement.up {
+	background-position: 0 -43px
+}
+
+.ft .movement.down {
+	background-position: 0 -36px
+}
+
+.ft .movement.none {
+	width: 10px;
+	margin-top: 7px;
+	padding-top: 2px;
+	background-position: -1px -50px
+}
+
+.ft.mod h2 {
+	color: #fff;
+	background-color: #424242
+}
+
+.ft table {
+	width: 100%;
+	font-size: 1.3em;
+	line-height: 1.231;
+	color: #4f4d4b;
+	border-collapse: collapse;
+	background-color: #eef2f4
+}
+
+.ft .divider td {
+	border-top: 1px solid #ccc
+}
+
+.ft th {
+	overflow: hidden;
+	padding: 4px 0 4px 8px;
+	color: #fff;
+	text-align: left;
+	background-color: #5e5e5e
+}
+
+.ft .position {
+	width: 2.308em
+}
+
+.ft .played,.ft .won,.ft .drawn,.ft .lost,.ft .goal-difference,.ft .points
+	{
+	width: 2em;
+	text-align: center
+}
+
+.ft .points {
+	padding-right: 8px
+}
+
+.ft td {
+	overflow: hidden;
+	padding: 4px 0 4px 8px;
+	background-color: #eef2f4;
+	border-top: 1px solid #fff
+}
+
+.ft tfoot tr {
+	background: #fff
+}
+
+.ft tfoot td {
+	padding-bottom: 0;
+	background-color: #fff;
+	border-top: 1px solid #ededed
+}
+
+.ft tfoot tr.first td {
+	border-top: 0;
+	padding-top: 8px
+}
+
+.fmb .teams {
+	background-image: url("../img/grass-80x40@2x.png");
+	background-size: 80px 40px;
+}
+
+.fmb {
+	margin-top: 8px;
+	position: relative;
+}
+
+.fmb .team-name {
+	color: #000000;
+	display: block;
+	font-size: 1.4em;
+	line-height: 1.143;
+	padding: 0 0 8px;
+}
+
+.fmb .teams {
+	position: relative;
+}
+
+.fmb .team {
+	float: left;
+	margin-bottom: 8px;
+	text-align: center;
+	width: 40%;
+}
+
+.fmb .away.team {
+	float: right;
+}
+
+.fmb .team .outer-inner {
+	display: block;
+	min-height: 32px;
+}
+
+.fmb .team .score {
+	color: #000000;
+	font-size: 1.4em;
+	left: 0;
+	line-height: 1.143;
+	margin-left: 0;
+	position: absolute;
+	text-align: right;
+	top: 4px;
+	width: 50%;
+	z-index: 2;
+}
+
+.fmb .away.team .score {
+	left: 50%;
+	margin-left: 0;
+	text-align: left;
+}
+
+.fmb .team .goals {
+	padding-right: 8px;
+}
+
+.fmb .team.away .goals {
+	padding-left: 8px;
+	padding-right: 0;
+}
+
+.fmb.status-penaltiescomplete .score,.fmb.status-extratimefulltime .score,.fmb.status-fulltime .score,.fmb.status-resumed .score,.fmb.status-suspended .score,.fmb.status-penalties .score,.fmb.status-extratimehalftime .score,.fmb.status-extratime .score,.fmb.status-halftime .score,.fmb.status-live .score
+	{
+	color: #FFFFFF;
+}
+
+.fmb .versus {
+	background: none repeat scroll 0 0 #DADADA;
+	display: block;
+	font-size: 1.4em;
+	height: 2.143em;
+	left: 50%;
+	line-height: 2.143;
+	margin-left: -1.071em;
+	position: absolute;
+	text-align: center;
+	width: 2.143em;
+}
+
+.fmb .kod {
+	clear: both;
+	text-align: center;
+}
+
+.fmb .kod .date,.fmb .kod .ko,.fmb .kod .venue {
+	display: block;
+	font-size: 1.1em;
+	line-height: 1.455;
+}
+
+.fmb .kod .competition {
+	text-transform: uppercase;
+}
+
+.fmb .match-details {
+	background: none repeat scroll 0 0 #DCDCDC;
+	color: #000000;
+	font-size: 1.2em;
+	line-height: 1.333;
+	margin-bottom: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100px;
+	padding-top: 2em;
+	position: relative;
+	text-align: center;
+	width: 20%;
+}
+
+.fmb .match-details li {
+	padding: 2px;
+}
+
+.fmb.status-unknown .match-details,.fmb.status-cancelled .match-details,.fmb.status-postponed .match-details,.fmb.status-fixture .match-details
+	{
+	display: none;
+}
+
+.fmb.status-result .match-details,.fmb.status-abandoned .match-details {
+	background: none repeat scroll 0 0 #FFE710;
+}
+
+.fmb.status-penaltiescomplete .match-details,.fmb.status-extratimefulltime .match-details,.fmb.status-fulltime .match-details,.fmb.status-resumed .match-details,.fmb.status-suspended .match-details,.fmb.status-penalties .match-details,.fmb.status-extratimehalftime .match-details,.fmb.status-extratime .match-details,.fmb.status-halftime .match-details,.fmb.status-live .match-details
+	{
+	background: none repeat scroll 0 0 #0087FF;
+	color: #FFFFFF;
+}
+
+.fmb .hyphen {
+	background: none repeat scroll 0 0 #000000;
+	display: block;
+	height: 2px;
+	left: 50%;
+	margin-left: -3px;
+	position: absolute;
+	top: 12px;
+	width: 6px;
+	z-index: 2;
+}
+
+.fmb.status-penaltiescomplete .hyphen,.fmb.status-extratimefulltime .hyphen,.fmb.status-fulltime .hyphen,.fmb.status-resumed .hyphen,.fmb.status-suspended .hyphen,.fmb.status-penalties .hyphen,.fmb.status-extratimehalftime .hyphen,.fmb.status-extratime .hyphen,.fmb.status-halftime .hyphen,.fmb.status-live .hyphen
+	{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.fmb .scoreline {
+	font-size: 1.3em;
+}
+
+.fmb .additional-detail {
+	background: none repeat scroll 0 0 #DCDCDC;
+	border-top: 1px solid #FFFFFF;
+	color: #1C1C1C;
+	padding: 2px 0;
+}
+
+.fmb .team {
+	margin-bottom: 0;
+	text-align: right;
+	width: 42%;
+}
+
+.fmb .team.away {
+	text-align: left;
+}
+
+.fmb .team .outer-inner {
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+.fmb .no-team-badges .outer-inner {
+	min-height: 0;
+}
+
+.fmb .team .team-name {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	font-size: 1.6em;
+	line-height: 1.25;
+	overflow: hidden;
+	padding: 4px 8px;
+}
+
+.fmb .team .score {
+	font-size: 1.6em;
+	left: 0;
+	line-height: 1.25;
+	margin-left: 0;
+	top: 12px;
+	width: 50%;
+}
+
+.fmb .away.team .score {
+	left: 50%;
+	margin-left: 0;
+}
+
+.fmb .team .goals {
+	padding-right: 8px;
+}
+
+.fmb .team.away .goals {
+	padding-left: 8px;
+	padding-right: 0;
+}
+
+.fmb .team .team-badge {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+	display: block;
+	float: right;
+	height: 54px;
+	margin-top: 8px;
+	padding: 4px;
+	width: 54px;
+}
+
+.fmb .team.away .team-badge {
+	float: none;
+}
+
+.fmb .no-team-badges .team-badge {
+	display: none;
+}
+
+.fmb .versus {
+	font-size: 1.6em;
+	height: 1.75em;
+	line-height: 1.75;
+	margin: 8px 0 0 -0.875em;
+	width: 1.75em;
+	z-index: 1;
+}
+
+.fmb .hyphen {
+	height: 2px;
+	margin-left: -3px;
+	top: 14px;
+	width: 7px;
+}
+
+.fmb .mod-top {
+	margin-top: 0;
+}
+
+.fmb .kod {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	margin: 0 auto 8px;
+	max-width: 60%;
+	padding: 8px;
+}
+
+.fmb .kod .date,.fmb .kod .ko,.fmb .kod .venue {
+	font-size: 1.3em;
+	line-height: 1.231;
+}
+
+.fmb .kod span {
+	color: #FFFFFF;
+}
+
+.fmb .match-details {
+	font-size: 1.3em;
+	line-height: 1.231;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	max-width: 1000px;
+	padding-top: 2.154em;
+	width: 16%;
+}
+
+.fmb.status-unknown .match-details,.fmb.status-cancelled .match-details,.fmb.status-postponed .match-details,.fmb.status-fixture .match-details
+	{
+	display: block;
+}
+
+.fmb .match-details li {
+	padding: 4px;
+}
+
+.match-comment {
+	font-size: 1.3em;
+	line-height: 1.231;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+.fmb .team .outer-inner {
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+
+.fmb abbr.team-name:after {
+	content: attr(title);
+	display: block;
+}
+
+.fmb abbr.team-name span {
+	display: none;
+}
+
+.fmb .team .score {
+	top: 20px;
+}
+
+.fmb .kod,.fmb .match-details {
+	margin-bottom: 16px;
+}
+
+.fmb .match-details,.fmb .versus {
+	margin-top: 16px;
+}
+
+.fmc {
+	font-size: 1.3em;
+	line-height: 1.231;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+.ft table {
+	font-size: 1.4em;
+	line-height: 1.143;
+}
+
+.ft .position,.ft .played,.ft .goal-difference,.ft .points {
+	width: 2.692em;
+}
+
+.ft th {
+	height: auto;
+}
+
+.ft td {
+	height: auto;
+	padding: 8px 0 8px 8px;
+}
+
+.ft .divider td {
+	border-top-style: dashed;
+}
+
+.ft.s320 {
+	display: block;
+}
+
+.ft td a,.ft td abbr {
+	position: relative;
+}
+
+.ft .team abbr:after {
+	content: "";
+	display: none;
+}
+
+.ft .competition-links a {
+	font-size: 1.6em;
+	line-height: 1.25;
+}
+
+.ft .s480 {
+	display: table-cell;
+}
+
+.ft th,.ft td {
+	padding-left: 16px;
+}
+
+.ft td.points {
+	padding-right: 8px;
+}
+
+.ft .team abbr span {
+	display: none;
+}
+
+.ft td.team abbr:after {
+	content: attr(title);
+	display: block;
+}
+
+.ft.mod h2 abbr:after {
+	background-color: #424242;
+	color: #FFFFFF;
+}
+
+.ft .competition-links a {
+	padding-top: 16px;
+}
+
+.ftl h3 {
+	font-size: 1.6em;
+	line-height: 1.25;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+.ftl .team li {
+	font-size: 1.6em;
+	line-height: 1.25;
+	padding-left: 24px;
+}
+
+.ftl .additional-information {
+	font-size: 1.6em;
+	line-height: 1.25;
+}
+
+.ftl .additional-information dt,.ftl .additional-information dd {
+	margin-bottom: 8px;
+}
+
+.match-comment {
+	background: none repeat scroll 0 0 #DCDCDC;
+	clear: both;
+	color: #000000;
+	font-size: 1.2em;
+	line-height: 1.333;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	text-align: center;
+}
+
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+html .visually-hidden,html .vh {
+	height: 1px;
+	left: -7999em;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+
+html .visually-hidden,html .vh {
+	border: 0 none;
+	clip: rect(0px, 0px, 0px, 0px);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.football-fl .team {
+	font-size: 1.8em;
+	line-height: 1.333;
+	padding: 0.444em 0;
+}
+
+.football-fl .team .score {
+	top: 0.444em;
+}
+
+.header .outer-inner {
+	height: 40px;
+}
+
+.fke {
+	background: none repeat scroll 0 0 #F5F5F5;
+	border-bottom: 1px solid #FFFFFF;
+	clear: both;
+	font-size: 1.2em;
+	line-height: 1.333;
+	position: relative;
+}
+
+.fke:after {
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	bottom: 0;
+	content: "";
+	display: block;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+}
+
+.fke li {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: none repeat scroll 0 center transparent;
+	border-color: -moz-use-text-color #FFFFFF -moz-use-text-color
+		-moz-use-text-color;
+	border-image: none;
+	border-style: none solid none none;
+	border-width: 0 1px 0 0;
+	float: none;
+	min-height: 0;
+	padding: 4px 0;
+	position: relative;
+	text-align: right;
+	width: 50%;
+}
+
+.fke li.away {
+	border-left: 1px solid #FFFFFF;
+	border-right: 0 none;
+	left: 50%;
+	position: relative;
+	text-align: left;
+}
+
+.fke {
+	font-size: 1.3em;
+	line-height: 1.231;
+}
+
+.fke li {
+	padding: 4px 0;
+}
+
+.fke .icon {
+	top: 6px;
+}
+
+.live-scores .fke:after {
+	width: 3.692em;
+}
+
+.live-scores span.fixture+.info .fke {
+	border-bottom: 0 none;
+}
+
+.live-scores .fke .icon {
+	right: 0.462em;
+	top: 0.462em;
+}
+
+.live-scores .fke .away .icon {
+	left: 0.462em;
+}
+
+.live-scores .fke .player {
+	padding-right: 2.462em;
+}
+
+.live-scores .fke .away .player {
+	padding-left: 2.462em;
+}
+
+.fke li {
+	padding: 6px 0;
+}
+
+.mod>h2,.h2,.mod caption {
+	background: none repeat scroll 0 0 #FFE710;
+	border-bottom: 1px solid #FFFFFF;
+	color: #1C1C1C;
+	font-size: 1.8em;
+	font-weight: normal;
+	line-height: 1.111;
+	padding: 0.333em 8px;
+}
+
+.mod>h2,.data-table p.table-description,.table-stats caption,.data-table caption,.h2
+	{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.mod>h2 abbr span {
+	display: none;
+}
+
+.mod>h2 abbr:after {
+	content: attr(title);
+}

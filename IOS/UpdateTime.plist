@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>news</key>
+	<date>2013-08-16T13:00:00Z</date>
+	<key>players</key>
+	<date>2013-08-16T14:01:45Z</date>
+	<key>trains_btn</key>
+	<date>2013-06-13T18:07:38Z</date>
+	<key>trains_fmr</key>
+	<date>2013-06-13T18:07:44Z</date>
+	<key>trains_lws</key>
+	<date>2013-06-13T18:03:34Z</date>
+	<key>traffic</key>
+	<date>2013-06-13T18:07:46Z</date>
+	<key>results</key>
+	<date>2013-06-13T18:07:48Z</date>
+	<key>livescores_europaleague</key>
+	<date>2013-06-13T18:07:49Z</date>
+	<key>livescores_championsleague</key>
+	<date>2013-06-13T18:07:51Z</date>
+	<key>livescores_fa</key>
+	<date>2013-06-13T18:07:52Z</date>
+	<key>livescores_premiership</key>
+	<date>2013-06-13T18:07:54Z</date>
+	<key>livescores_league1</key>
+	<date>2013-06-13T18:07:56Z</date>
+	<key>livescores_league2</key>
+	<date>2013-06-13T18:07:57Z</date>
+	<key>currentmatch</key>
+	<date>2013-06-13T18:07:59Z</date>
+	<key>livescores_championship</key>
+	<date>2013-06-13T18:08:01Z</date>
+	<key>leaguetable_league2</key>
+	<date>2013-06-13T18:50:03Z</date>
+	<key>leaguetable_league1</key>
+	<date>2013-06-13T18:08:04Z</date>
+	<key>leaguetable_premiership</key>
+	<date>2013-06-13T18:08:06Z</date>
+	<key>leaguetable_championship</key>
+	<date>2013-06-13T18:08:07Z</date>
+	<key>buses_6483</key>
+	<date>2013-06-13T18:08:09Z</date>
+	<key>buses_7136</key>
+	<date>2013-06-13T18:08:11Z</date>
+	<key>fixtures</key>
+	<date>2013-06-13T18:08:13Z</date>
+	<key>buses_8242</key>
+	<date>2013-06-13T18:08:14Z</date>
+	<key>twitter_fans</key>
+	<date>2013-07-01T22:07:22Z</date>
+	<key>twitter_club</key>
+	<date>2013-07-01T22:07:34Z</date>
+</dict>
+</plist>

@@ -1,0 +1,3432 @@
+html {
+	font-size: 100%
+}
+
+body {
+	font-size: 62.5%;
+	line-height: 1;
+	color: #f00;
+	background: #414141;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+.click-blocker {
+	display: none
+}
+
+a {
+	text-decoration: none;
+	color: #1659b4
+}
+
+a:hover,a:focus {
+	text-decoration: underline
+}
+
+.page-title {
+	padding: 16px 8px;
+	clear: both;
+	font-size: 1.6em;
+	line-height: 1.125;
+	color: #000
+}
+
+.page-title .spr.spr-media.live {
+	margin: 2px 4px 0 0;
+	float: left
+}
+
+.floating-h1 .page-title {
+	float: left
+}
+
+ul,ol {
+	list-style: none
+}
+
+b,strong {
+	font-weight: bold
+}
+
+i,em {
+	font-style: italic
+}
+
+fieldset,abbr {
+	border: 0
+}
+
+sup {
+	font-size: smaller;
+	vertical-align: super
+}
+
+#blq-container {
+	color: #1c1c1c;
+	background: #fff
+}
+
+#page-content {
+	width: 100%;
+	clear: both;
+	position: relative
+}
+
+.mod {
+	display: block;
+	clear: both;
+	margin: 0 0 16px
+}
+
+.mod:before,.mod:after {
+	content: "";
+	display: table
+}
+
+.mod-sm {
+	margin-bottom: 8px
+}
+
+.mod>h2,.data-table p.table-description,.h2 {
+	padding: .250em 8px;
+	display: block;
+	position: relative;
+	z-index: 99;
+	font-size: 1.4em;
+	line-height: 1.143;
+	font-weight: normal;
+	color: #000;
+	border-bottom: 1px solid #fff;
+	background: #ffe710
+}
+
+.data-table caption {
+	padding: .250em 8px
+}
+
+.mod>h2:after {
+	display: block;
+	content: '';
+	visibility: hidden
+}
+
+.mod h2 a,.h2 a {
+	color: #000
+}
+
+.mod.mod-top {
+	margin-top: 16px;
+	margin-bottom: 0
+}
+
+.mod.margin-reset {
+	margin: 0
+}
+
+.live>h2,h2.live {
+	background: #0087ff;
+	color: #fff
+}
+
+a.to-top {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	clear: both;
+	font-size: 1.3em;
+	border-top: 4px solid #ffe710
+}
+
+a.to-top .spr.chevron-up {
+	width: 9px;
+	height: 7px;
+	display: block;
+	margin: 2px 4px 0 0;
+	float: left;
+	background-position: -26px -255px
+}
+
+a.to-top:hover {
+	text-decoration: underline;
+	border-top: 4px solid #ffe710
+}
+
+#blq-foot a {
+	font-size: 1.4em
+}
+
+#blq-foot-links ul {
+	font-size: .857em
+}
+
+#blq-main {
+	z-index: 9999;
+	position: relative
+}
+
+.bbccom_feature_phone {
+	padding-bottom: 8px
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.clearfix {
+	clear: both
+}
+
+html .hidden {
+	display: none;
+	visibility: hidden
+}
+
+html .visually-hidden,html .vh {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	left: -7999em
+}
+
+.mod h2.blq-hide {
+	position: absolute
+}
+
+.category-tag {
+	display: block;
+	margin: 0;
+	padding: 0;
+	color: #1c1c1c;
+	font-size: 1.1em;
+	line-height: 1.455;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase
+}
+
+a.category-tag {
+	color: #4e7a22
+}
+
+.media img {
+	width: 100%;
+	height: auto
+}
+
+h2 .top,.h2 .top {
+	margin-top: .25em;
+	padding-left: 13px;
+	float: right;
+	position: relative;
+	font-size: .857em;
+	line-height: 1
+}
+
+h2 .top .chevron-up,.h2 .top .chevron-up {
+	width: 9px;
+	height: 7px;
+	display: block;
+	margin-top: -4px;
+	position: absolute;
+	top: 50%;
+	left: 0
+}
+
+.show-on-compact-plus,.show-on-tablet-plus {
+	display: none
+}
+
+.expander.outer-inner h2,.expander.outer-inner .expander-handle {
+	margin-left: -8px;
+	margin-right: -8px
+}
+
+.rta.expander h2 {
+	margin-bottom: 8px
+}
+
+.rta p,.rta li,.rta .heading {
+	color: #1c1c1c;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.rta .introduction {
+	font-weight: bold
+}
+
+.rta .footer {
+	font-style: italic
+}
+
+.rta li:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0
+}
+
+.rta p,.rta ol,.rta ul,.rta .heading {
+	padding: 0 0 12px 0
+}
+
+.rta ul li {
+	list-style: square outside none
+}
+
+.rta ol li {
+	list-style: decimal outside none
+}
+
+.rta li {
+	margin-left: 32px;
+	margin-bottom: .5em;
+	padding-left: 4px
+}
+
+.rta strong,.rta .crosshead {
+	font-weight: bold
+}
+
+.rta em {
+	font-style: italic
+}
+
+.rta .heading {
+	font-weight: bold;
+	border: 0;
+	background: 0
+}
+
+.rta h2.heading {
+	font-size: 1.4em;
+	line-height: 1.143
+}
+
+.rta :last-child {
+	padding-bottom: 0
+}
+
+.rta .spr.ext {
+	display: inline-block;
+	margin-left: 3px
+}
+
+.rta .inline-image {
+	display: none
+}
+
+.mod.rta .meta-header:last-child p.last {
+	margin-bottom: 0
+}
+
+.container {
+	margin: 0 auto;
+	min-width: 200px;
+	background: #fff;
+	max-width: 680px
+}
+
+.outer,.inner {
+	padding: 0 4px
+}
+
+.outer-inner {
+	padding: 0 8px
+}
+
+.span-third {
+	float: left;
+	width: 33.33333333%
+}
+
+.spr {
+	display: block;
+	overflow: hidden;
+	text-indent: -7999em;
+	background-image: url(../img/base-new-optimised.png?jcb=1361454396);
+	background-repeat: no-repeat
+}
+
+.spr.live {
+	width: 32px;
+	height: 13px;
+	background-position: 0 -53px
+}
+
+.spr.watch {
+	width: 16px;
+	height: 13px;
+	background-position: -48px -53px
+}
+
+.spr.watch-live {
+	width: 16px;
+	height: 13px;
+	background-position: -32px -53px
+}
+
+.spr.listen {
+	width: 16px;
+	height: 13px;
+	background-position: -80px -53px
+}
+
+.spr.listen-live {
+	width: 16px;
+	height: 13px;
+	background-position: -64px -53px
+}
+
+.spr.chevron-up {
+	width: 9px;
+	height: 7px;
+	background-position: -26px -243px
+}
+
+.spr.chevron-down {
+	width: 9px;
+	height: 7px;
+	background-position: -16px -243px
+}
+
+.spr.chevron-left {
+	width: 7px;
+	height: 9px;
+	background-position: 0 -242px
+}
+
+.spr.chevron-right {
+	width: 9px;
+	height: 7px;
+	background-position: -8px -242px
+}
+
+.spr.ext {
+	width: 10px;
+	height: 10px;
+	background-position: -42px -253px
+}
+
+.spr-football {
+	display: block;
+	overflow: hidden;
+	text-indent: -7999em;
+	background-image: url(../img/base-football-optimised.png);
+	background-repeat: no-repeat
+}
+
+.alert,.data,.para {
+	padding: 0 8px;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.alert.top-margin-8 {
+	margin-top: 8px
+}
+
+.alert.top-margin,.alert.top-margin-16 {
+	margin-top: 16px
+}
+
+.alert p {
+	position: relative
+}
+
+.alert.ex p {
+	padding: 5px 0 3px 30px
+}
+
+.alert.ex p .icon {
+	width: 24px;
+	height: 21px;
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	background-position: -70px -242px
+}
+
+.data {
+	margin-bottom: 32px
+}
+
+.all-sports {
+	clear: both;
+	background: #000;
+	border-top: 1px solid #7e7e7e
+}
+
+.all-sports ul {
+	width: 100%;
+	padding: 12px 0 4px
+}
+
+.all-sports>ul {
+	height: 59.8em
+}
+
+.all-sports ul li {
+	width: 50%;
+	height: 2.6em;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.all-sports ul li a {
+	width: 100%;
+	color: #fff;
+	font-size: 1.3em;
+	line-height: 1
+}
+
+.all-sports .around-the {
+	width: 100%;
+	color: #fff
+}
+
+.all-sports .around-the h3 {
+	margin: 0;
+	padding: 16px 0 14px;
+	font-size: 1.5em;
+	line-height: 1;
+	border-top: 1px solid #7e7e7e
+}
+
+.all-sports .around-the ul {
+	width: 100%;
+	padding: 0;
+	float: left;
+	text-transform: uppercase
+}
+
+.all-sports .around-the li {
+	width: 50%;
+	height: auto;
+	padding: 0 0 16px;
+	float: left
+}
+
+.all-sports .around-the li a {
+	font-size: 1.3em;
+	line-height: 1;
+	color: #fff
+}
+
+.all-sports ul li.col-1.col-2 {
+	margin: 0
+}
+
+.all-sports ul li.col-1.col-2.first-320,.all-sports ul li.col-2 {
+	margin: 0 0 0 50%
+}
+
+.all-sports ul li.col-1.col-2.first-320 {
+	margin-top: -59.8em
+}
+
+.cta a {
+	display: block;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.cc.olympics .ll,.cc.euro .ll {
+	margin-bottom: 8px
+}
+
+.content-block.bg {
+	background: #f5f5f5
+}
+
+.content-block .content {
+	padding-top: 6px;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.content-block.bg .content {
+	padding-bottom: 6px
+}
+
+.content-block h3 {
+	padding-bottom: 16px
+}
+
+.content-block .content p {
+	padding-bottom: 16px
+}
+
+.content-block .content ul {
+	list-style: none
+}
+
+.content-block .content li {
+	margin-bottom: 8px
+}
+
+.content-block .content :last-child,.content-block .content .last {
+	margin-bottom: 0;
+	padding-bottom: 0
+}
+
+body.fixed-nav {
+	padding-right: 260px
+}
+
+#blq-container {
+	-moz-box-shadow: 3px 0 3px 3px #222;
+	-o-box-shadow: 3px 0 3px 3px #222;
+	-webkit-box-shadow: 3px 0 3px 3px #222;
+	box-shadow: 3px 0 3px 3px #222;
+	position: relative
+}
+
+.header {
+	width: 100%;
+	min-height: 32px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: relative;
+	z-index: 1;
+	clear: both;
+	background: #ffe710
+}
+
+.header .outer-inner {
+	position: relative;
+	height: 45px
+}
+
+.header.no-index .outer-inner {
+	height: 32px
+}
+
+.header .logo {
+	width: 216px;
+	height: 45px;
+	display: block;
+	margin-top: -21px;
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	text-indent: -7999em
+}
+
+.header.no-index .logo {
+	height: 25px;
+	margin-top: -12px
+}
+
+.header .sport {
+	width: 100px;
+	height: 25px;
+	display: block;
+	position: relative;
+	float: left
+}
+
+.header .index {
+	width: 216px;
+	height: 16px;
+	display: block;
+	margin: 4px 0 0;
+	float: left;
+	clear: left;
+	background-position: 0 0;
+	background-repeat: no-repeat
+}
+
+.index.american-football {
+	background-image:
+		url(img/contextual-navigation/american-football.png?jcb=1361454396)
+}
+
+.index.archery {
+	background-image:
+		url(img/contextual-navigation/archery.png?jcb=1361454396)
+}
+
+.index.athletics {
+	background-image:
+		url(img/contextual-navigation/athletics.png?jcb=1361454396)
+}
+
+.index.badminton {
+	background-image:
+		url(img/contextual-navigation/badminton.png?jcb=1361454396)
+}
+
+.index.baseball {
+	background-image:
+		url(img/contextual-navigation/baseball.png?jcb=1361454396)
+}
+
+.index.basketball {
+	background-image:
+		url(img/contextual-navigation/basketball.png?jcb=1361454396)
+}
+
+.index.bowls {
+	background-image:
+		url(img/contextual-navigation/bowls.png?jcb=1361454396)
+}
+
+.index.boxing {
+	background-image:
+		url(img/contextual-navigation/boxing.png?jcb=1361454396)
+}
+
+.index.canoeing {
+	background-image:
+		url(img/contextual-navigation/canoeing.png?jcb=1361454396)
+}
+
+.index.cricket {
+	background-image:
+		url(img/contextual-navigation/cricket.png?jcb=1361454396)
+}
+
+.index.cycling {
+	background-image:
+		url(img/contextual-navigation/cycling.png?jcb=1361454396)
+}
+
+.index.darts {
+	background-image:
+		url(img/contextual-navigation/darts.png?jcb=1361454396)
+}
+
+.index.disability-sport {
+	background-image:
+		url(img/contextual-navigation/disability-sport.png?jcb=1361454396)
+}
+
+.index.diving {
+	background-image:
+		url(img/contextual-navigation/diving.png?jcb=1361454396)
+}
+
+.index.equestrian {
+	background-image:
+		url(img/contextual-navigation/equestrian.png?jcb=1361454396)
+}
+
+.index.fencing {
+	background-image:
+		url(img/contextual-navigation/fencing.png?jcb=1361454396)
+}
+
+.index.football {
+	background-image:
+		url(img/contextual-navigation/football.png?jcb=1361454396)
+}
+
+.index.formula-1 {
+	background-image:
+		url(img/contextual-navigation/formula-1.png?jcb=1361454396)
+}
+
+.index.gaelic-games {
+	background-image:
+		url(img/contextual-navigation/gaelic-games.png?jcb=1361454396)
+}
+
+.index.golf {
+	background-image: url(img/contextual-navigation/golf.png?jcb=1361454396)
+}
+
+.index.gymnastics {
+	background-image:
+		url(img/contextual-navigation/gymnastics.png?jcb=1361454396)
+}
+
+.index.handball {
+	background-image:
+		url(img/contextual-navigation/handball.png?jcb=1361454396)
+}
+
+.index.hockey {
+	background-image:
+		url(img/contextual-navigation/hockey.png?jcb=1361454396)
+}
+
+.index.horse-racing {
+	background-image:
+		url(img/contextual-navigation/horse-racing.png?jcb=1361454396)
+}
+
+.index.ice-hockey {
+	background-image:
+		url(img/contextual-navigation/ice-hockey.png?jcb=1361454396)
+}
+
+.index.judo {
+	background-image: url(img/contextual-navigation/judo.png?jcb=1361454396)
+}
+
+.index.modern-pentathlon {
+	background-image:
+		url(img/contextual-navigation/modern-pentathlon.png?jcb=1361454396)
+}
+
+.index.motogp {
+	background-image:
+		url(img/contextual-navigation/moto-gp.png?jcb=1361454396)
+}
+
+.index.netball {
+	background-image:
+		url(img/contextual-navigation/netball.png?jcb=1361454396)
+}
+
+.index.olympics {
+	background-image:
+		url(img/contextual-navigation/olympics.png?jcb=1361454396)
+}
+
+.index.rowing {
+	background-image:
+		url(img/contextual-navigation/rowing.png?jcb=1361454396)
+}
+
+.index.rugby-league {
+	background-image:
+		url(img/contextual-navigation/rugby-league.png?jcb=1361454396)
+}
+
+.index.rugby-union {
+	background-image:
+		url(img/contextual-navigation/rugby-union.png?jcb=1361454396)
+}
+
+.index.sailing {
+	background-image:
+		url(img/contextual-navigation/sailing.png?jcb=1361454396)
+}
+
+.index.shooting {
+	background-image:
+		url(img/contextual-navigation/shooting.png?jcb=1361454396)
+}
+
+.index.snooker {
+	background-image:
+		url(img/contextual-navigation/snooker.png?jcb=1361454396)
+}
+
+.index.squash {
+	background-image:
+		url(img/contextual-navigation/squash.png?jcb=1361454396)
+}
+
+.index.swimming {
+	background-image:
+		url(img/contextual-navigation/swimming.png?jcb=1361454396)
+}
+
+.index.table-tennis {
+	background-image:
+		url(img/contextual-navigation/table-tennis.png?jcb=1361454396)
+}
+
+.index.taekwondo {
+	background-image:
+		url(img/contextual-navigation/taekwondo.png?jcb=1361454396)
+}
+
+.index.tennis {
+	background-image:
+		url(img/contextual-navigation/tennis.png?jcb=1361454396)
+}
+
+.index.triathlon {
+	background-image:
+		url(img/contextual-navigation/triathlon.png?jcb=1361454396)
+}
+
+.index.volleyball {
+	background-image:
+		url(img/contextual-navigation/volleyball.png?jcb=1361454396)
+}
+
+.index.weightlifting {
+	background-image:
+		url(img/contextual-navigation/weightlifting.png?jcb=1361454396)
+}
+
+.index.winter-sports {
+	background-image:
+		url(img/contextual-navigation/winter-sports.png?jcb=1361454396)
+}
+
+.index.wrestling {
+	background-image:
+		url(img/contextual-navigation/wrestling.png?jcb=1361454396)
+}
+
+.header .toggle {
+	height: 32px;
+	display: block;
+	margin-top: -16px;
+	padding: 0 8px;
+	float: right;
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	font-size: 1.3em;
+	color: #fff;
+	line-height: 32px;
+	background: #000;
+	border-radius: 2px
+}
+
+.header .toggle:hover,.header .toggle:active,.header .toggle:focus {
+	background: #000;
+	text-decoration: none
+}
+
+.header .toggle.open {
+	background-position: -118px -120px
+}
+
+.header .toggle span {
+	display: none
+}
+
+ul.p-nav {
+	width: 100%;
+	padding: 3px 0 0;
+	clear: both;
+	float: left;
+	position: relative;
+	background: #1c1c1c
+}
+
+ul.p-nav {
+	list-style: none
+}
+
+ul.p-nav li {
+	padding: 5px 0 4px;
+	float: left;
+	clear: none;
+	border-bottom: 3px solid #1c1c1c
+}
+
+ul.p-nav li a {
+	display: block;
+	float: left;
+	padding: 0 4px;
+	font-size: 1.3em;
+	color: #fff
+}
+
+ul.p-nav li a:hover {
+	color: #fff
+}
+
+ul.p-nav li.first {
+	margin-left: 4px
+}
+
+ul.p-nav li.last {
+	margin-right: 4px
+}
+
+ul.p-nav li.last a {
+	border-right: 0;
+	background: 0
+}
+
+ul.p-nav li a:hover {
+	text-decoration: underline
+}
+
+ul.p-nav li.active {
+	border-bottom-color: #ffe710
+}
+
+#more-nav {
+	background: #1c1c1c;
+	border: 0;
+	border-left: 1px solid #7e7e7e;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 32px
+}
+
+#more-nav a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: block;
+	padding: 0;
+	float: none
+}
+
+#more-nav .arrow {
+	width: 14px;
+	height: 9px;
+	display: block;
+	margin-top: -4px;
+	margin-left: -7px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-indent: -7999em;
+	background-position: -55px -242px
+}
+
+#more-nav.open .arrow {
+	background-position: -40px -242px
+}
+
+#subnav-holder {
+	border-top: 1px solid #7e7e7e;
+	color: #fff;
+	float: left;
+	width: 100%
+}
+
+#subnav-holder.closed {
+	display: none
+}
+
+body.fixed-nav.sport-home #p-nav {
+	border-top: 1px solid #e7cc0f;
+	padding: 0
+}
+
+body.fixed-nav.sport-home #p-nav li {
+	display: none
+}
+
+#breadcrumb {
+	display: none
+}
+
+#sport>#breadcrumb li {
+	padding: 14px 8px 14px 36px
+}
+
+#footer {
+	width: 100%;
+	clear: both;
+	background: #ffe710
+}
+
+#footer h2 {
+	padding: 8px;
+	font-size: 1.6em;
+	color: #000
+}
+
+ul.s-nav {
+	clear: both;
+	margin: 0 8px;
+	font-size: 1.3em
+}
+
+ul.s-nav a {
+	color: #000
+}
+
+ul.s-nav a:hover {
+	text-decoration: underline
+}
+
+ul.s-nav li {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0 0 2px
+}
+
+ul.s-nav>li.last {
+	width: 100%;
+	padding: 8px 0 0;
+	border-top: 1px solid #000
+}
+
+ul.s-nav li ul li {
+	width: 50%;
+	float: left;
+	clear: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	vertical-align: top
+}
+
+ul.s-nav li ul li a {
+	display: block;
+	padding: 0 0 8px;
+	font-size: 1em
+}
+
+ul.s-nav li.last ul li a {
+	padding-left: 0
+}
+
+.header ul.s-nav {
+	padding: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	position: relative
+}
+
+.header.closed ul.s-nav {
+	height: 0
+}
+
+.header ul.s-nav>li>ul>li a {
+	color: #fff
+}
+
+.header ul.s-nav>li.last {
+	padding: 8px 0;
+	border-top-color: #7e7e7e
+}
+
+.header ul.s-nav>li.last>ul>li>a {
+	padding: 0
+}
+
+.date-picker {
+	position: relative
+}
+
+.date-picker .navigator {
+	height: 12px;
+	padding: 6px 0;
+	position: relative;
+	text-align: center;
+	background: #dcdcdc;
+	border: 8px solid #f5f5f5
+}
+
+.date-picker .date {
+	font-size: 1.3em;
+	color: #4f4d4b
+}
+
+.date-picker .arrow {
+	width: 24px;
+	height: 0;
+	padding-top: 24px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	text-indent: -7999em
+}
+
+.date-picker .next {
+	right: 0;
+	border-left: 1px solid #fff;
+	background-position: -24px -68px
+}
+
+.date-picker span.next {
+	background-position: -72px -68px
+}
+
+.date-picker .prev {
+	left: 0;
+	border-right: 1px solid #fff;
+	background-position: 0 -68px
+}
+
+.date-picker span.prev {
+	background-position: -48px -68px
+}
+
+.date-picker fieldset {
+	padding: 8px 8px 0;
+	font-size: 1.3em
+}
+
+.date-picker select {
+	width: 100%;
+	margin-bottom: 8px;
+	border: 1px solid #dcdcdc
+}
+
+.date-picker .btn-select {
+	width: 61px;
+	height: 24px;
+	overflow: hidden;
+	text-indent: -999em;
+	border: 0
+}
+
+.date-picker .calendar {
+	display: none;
+	visibility: hidden
+}
+
+.date-picker .error,.date-picker .loading {
+	display: none
+}
+
+.date-picker .toggle-calendar {
+	width: auto;
+	right: 88px
+}
+
+.fdd.fdd-bg {
+	padding: 8px 0 8px;
+	background: #f5f5f5
+}
+
+.fdd label {
+	display: none
+}
+
+.fdd select {
+	width: 100%;
+	padding: 3px;
+	font-size: 1.3em;
+	border: 1px solid #ccc
+}
+
+.fdd option {
+	color: #000;
+	background: #fff
+}
+
+.fdd optgroup {
+	color: #000;
+	background: #cdcdcd
+}
+
+.fdd optgroup option {
+	padding-left: 1em
+}
+
+.fdd .btn-select {
+	width: 61px;
+	height: 24px;
+	overflow: hidden;
+	margin: 6px 0 0 0
+}
+
+.headline {
+	margin: 8px 0
+}
+
+.headline h1 {
+	padding: 0 0 8px 0;
+	font-size: 1.6em;
+	line-height: 1.125
+}
+
+.headline.has-image h1 {
+	padding-top: 8px
+}
+
+.headline .byline,.headline .dateline {
+	font-size: 1.2em;
+	line-height: 1;
+	color: #6f6f6f
+}
+
+.headline .dateline {
+	display: block;
+	padding-bottom: 4px
+}
+
+.h2hs dl,.h2hs p {
+	font-size: 1.2em;
+	line-height: 1
+}
+
+.h2hs .teams {
+	padding: 8px;
+	clear: both;
+	text-align: center
+}
+
+.h2hs .teams .home {
+	margin-right: 12px
+}
+
+.h2hs .teams span span {
+	width: .636em;
+	height: .636em;
+	display: inline-block;
+	margin: 2px 6px 0 0;
+	background: #318ccd
+}
+
+.h2hs .teams span.away span {
+	background: #055085
+}
+
+.h2hs dl {
+	width: 100%;
+	margin-top: 4px;
+	float: left;
+	text-align: center
+}
+
+.h2hs dt {
+	padding-top: 8px;
+	padding-bottom: 4px;
+	clear: both;
+	color: #4f4d4b
+}
+
+.h2hs dt.first {
+	margin-top: 0
+}
+
+.h2hs dt.no-border {
+	padding-top: 0;
+	border-top: 0
+}
+
+.h2hs dd {
+	display: block;
+	padding: 0 3em
+}
+
+.h2hs dd.away {
+	position: relative;
+	top: -10px
+}
+
+.h2hs .bar {
+	height: 10px;
+	display: block;
+	background: #318ccd
+}
+
+.h2hs .away .bar {
+	border-left: 1px solid #fff;
+	background: #055085
+}
+
+.h2hs .value {
+	width: 3em;
+	height: 1em;
+	display: block;
+	margin-top: -0.125em;
+	margin-left: -3em;
+	float: left;
+	text-align: center;
+	color: #4f4d4b;
+	background: #fff
+}
+
+.h2hs .away .value {
+	float: right;
+	margin-left: 0;
+	margin-right: -3em
+}
+
+.h2hs .summary {
+	width: 100%;
+	margin: -8px 0 8px 0;
+	position: relative;
+	float: left;
+	clear: both
+}
+
+.info-box {
+	padding-bottom: 10px;
+	background: #f5f5f5
+}
+
+.mod.info-box li span.category {
+	display: none
+}
+
+.mod.info-box ul {
+	margin-bottom: 0
+}
+
+.link-box .inner {
+	padding-top: 8px
+}
+
+.link-box .title {
+	display: none
+}
+
+.link-box .link {
+	width: 100%;
+	float: left;
+	clear: left
+}
+
+.link-box-grouped {
+	background: #f5f5f5
+}
+
+.link-box-grouped .inner {
+	padding-top: 8px
+}
+
+.link-box-grouped .links {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #dcdcdc
+}
+
+.link-box-grouped .last .links {
+	border-bottom: 0
+}
+
+.link-box-grouped .links .last {
+	padding-bottom: 0
+}
+
+.link-box-grouped .links-title {
+	display: block;
+	margin: 0;
+	padding: 0 0 4px 0;
+	color: #4f4d4b
+}
+
+.link-box-grouped .links li {
+	padding-bottom: 8px
+}
+
+.link-box-grouped .links-title,.link-box-grouped .links a {
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.ll li {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	clear: both
+}
+
+.ll li.hide {
+	display: none
+}
+
+.ll .span-custom-1 {
+	width: 33.33333333%;
+	float: left
+}
+
+.ll .span-custom-2 {
+	width: 66.66666666%;
+	float: left
+}
+
+.ll li .title {
+	display: block;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.ll li .spr.ext {
+	display: inline-block;
+	margin-left: 3px
+}
+
+.ll .category-tag {
+	padding-bottom: 4px
+}
+
+.ll p {
+	display: none
+}
+
+.ll li.first {
+	border-top: 0
+}
+
+.ll li.img img {
+	display: none
+}
+
+.ll .image-wrap {
+	display: none
+}
+
+.ll.bg {
+	background: #f5f5f5
+}
+
+.ll.bg ul {
+	padding-bottom: 8px
+}
+
+.ll.bg li {
+	padding-bottom: 0
+}
+
+.ll.bg li.last {
+	padding-bottom: 0
+}
+
+.ll.arrows {
+	padding-bottom: 0;
+	background: #f5f5f5
+}
+
+.ll.arrows li {
+	border-bottom: 1px solid #fff
+}
+
+.ll.stories li {
+	padding-bottom: 0
+}
+
+.ll.stories li .icon {
+	width: 13px;
+	height: 0;
+	margin: 1px 4px 0 0;
+	padding-top: 13px;
+	overflow: hidden;
+	position: static;
+	float: left
+}
+
+.ll.stories li.live .icon {
+	background-position: -112px -15px
+}
+
+.ll.stories .tag {
+	width: 32px;
+	height: 15px;
+	display: block;
+	margin: 1px 4px 0 0;
+	overflow: hidden;
+	float: left;
+	text-indent: -7999em
+}
+
+.tabify {
+	margin-bottom: 0
+}
+
+ul.keyline-links {
+	margin-top: 8px;
+	margin-bottom: 0;
+	border-top: 1px solid #fff
+}
+
+.js .ll.stories li.toggle-btn {
+	background: #f5f5f5;
+	border-bottom: 1px solid #a5a5a5;
+	color: #1c1c1c;
+	cursor: pointer;
+	font-size: 1.4em;
+	line-height: 2em;
+	padding: 10px 8px 8px;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.ll.stories li.footer-link,.js .ll.stories li.footer-link {
+	margin: 8px 4px 0;
+	border-top: 1px solid #dcdcdc
+}
+
+.ll.stories li.footer-link .inner,.js .ll.stories li.footer-link .inner
+	{
+	padding: 0
+}
+
+.ll.stories li.footer-link a {
+	font-size: 1.3em
+}
+
+.ll.stories li.footer-link a:hover {
+	text-decoration: underline
+}
+
+.live-media-promo {
+	display: none
+}
+
+.ltc .dateline {
+	display: block;
+	margin-bottom: 16px;
+	font-size: 1.3em;
+	line-height: 1.231;
+	color: #4f4d4b
+}
+
+.ltc .author {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.ltc .summary {
+	margin-bottom: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background: #f5f5f5
+}
+
+.ltc .summary h3 {
+	margin-bottom: 8px;
+	font-size: 1.400em;
+	line-height: 1.143
+}
+
+.ltc .summary ul {
+	margin-left: 14px;
+	list-style-type: square;
+	font-size: 1.3em;
+	line-height: 1.231;
+	color: #4f4d4b
+}
+
+.ltc .summary li {
+	margin-bottom: 8px
+}
+
+.ltc .summary li.last,.ltc .summary li:last-child {
+	margin-bottom: 0
+}
+
+.ltc .get-involved h2 {
+	color: #fff;
+	background-color: #4f4d4b
+}
+
+.ltc .get-involved .get-involved-inner {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background: #f5f5f5
+}
+
+.ltc .get-involved p {
+	margin-bottom: 8px;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.ltc .get-involved p:last-child {
+	margin-bottom: 0
+}
+
+.ltc .posts {
+	padding-top: 16px
+}
+
+.pagination {
+	margin-bottom: 16px;
+	float: left;
+	list-style: none
+}
+
+.pagination.pagination-bottom {
+	margin-top: 8px;
+	margin-bottom: 0
+}
+
+.pagination li {
+	margin-right: 1px;
+	float: left
+}
+
+.pagination a,.pagination span {
+	width: 39px;
+	height: 0;
+	display: block;
+	padding-top: 24px;
+	overflow: hidden
+}
+
+.pagination .prev {
+	background-position: 0 -142px
+}
+
+.pagination span.prev {
+	background-position: 0 -118px
+}
+
+.pagination .next {
+	background-position: -39px -142px
+}
+
+.pagination span.next {
+	background-position: -39px -118px
+}
+
+.refresh-page {
+	position: relative
+}
+
+#refresh {
+	position: absolute;
+	top: -16px;
+	height: 0;
+	overflow: hidden
+}
+
+.refresh-page .spr {
+	width: 104px;
+	height: 0;
+	display: block;
+	margin-bottom: 16px;
+	padding-top: 24px;
+	overflow: hidden;
+	float: right;
+	background-position: 0 -94px
+}
+
+.time-zone {
+	padding-bottom: 16px;
+	clear: both;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.commentary {
+	clear: both;
+	font-size: 1.3em;
+	line-height: 1.231;
+	color: #4f4d4b;
+	list-style: none
+}
+
+.commentary-item {
+	margin-bottom: 8px;
+	position: relative
+}
+
+.commentary-item-inner {
+	padding: 8px;
+	background: #f5f5f5;
+	border-left: 8px solid #dcdcdc
+}
+
+.commentary-item .heading {
+	font-weight: bold
+}
+
+.commentary-item .spr.ext {
+	display: inline-block;
+	margin-left: 3px
+}
+
+.item-info {
+	margin-right: 8px;
+	float: left
+}
+
+.item-info img,.item-info .icon {
+	display: none
+}
+
+.item-info .time {
+	color: #1c1c1c
+}
+
+.commentary-item .contributor {
+	display: block;
+	font-weight: bold;
+	color: #1c1c1c
+}
+
+.commentary-item .description {
+	padding-top: 4px;
+	clear: left
+}
+
+.description p {
+	margin-bottom: 8px;
+	color: #4f4d4b
+}
+
+.description p:last-child,.description .caption:last-child {
+	margin-bottom: 0
+}
+
+.caption {
+	display: none;
+	padding-top: 8px;
+	margin-bottom: 8px
+}
+
+.caption img {
+	width: 100%;
+	height: auto
+}
+
+.caption span {
+	display: block;
+	padding: 0 4px;
+	font-size: .846em;
+	line-height: 1.182;
+	font-style: italic
+}
+
+.class-SUPREME-INCIDENT .commentary-item-inner,.class-GOAL .commentary-item-inner,.class-commentary-football-goal .commentary-item-inner,.class-WICKET .commentary-item-inner,.class-commentary-cricket-wicket .commentary-item-inner,.class-FLAG_CHEQUERED .commentary-item-inner,.class-WINNER .commentary-item-inner,.class-SET_FINAL .commentary-item-inner,.class-TRY .commentary-item-inner,.class-POLE .commentary-item-inner,.class-FLAG_CHEQUERED .commentary-item-inner,.class-POLE .commentary-item-inner,.class-TRY .commentary-item-inner,.class-TRY_CONVERTED .commentary-item-inner,.class-BREAKING .commentary-item-inner
+	{
+	border-color: #1a6ffd
+}
+
+.class-SUPREME-INCIDENT .comment .heading,.class-GOAL .comment .heading,.class-commentary-football-goal .comment .heading,.class-WICKET .comment .heading,.class-commentary-cricket-wicket .comment .heading,.class-FLAG_CHEQUERED .comment .heading,.class-WINNER .comment .heading,.class-POLE .comment .heading,.class-SET_FINAL .comment .heading,.class-FLAG_CHEQUERED .comment .heading,.class-POLE .comment .heading,.class-TRY .heading,.class-TRY_CONVERTED .heading,.class-BREAKING .heading
+	{
+	text-transform: uppercase
+}
+
+.class-PRIMARY-INCIDENT .commentary-item-inner,.class-PENALTY .commentary-item-inner,.class-commentary-football-penalty .commentary-item-inner,.class-PENALTY_MISS .commentary-item-inner,.class-commentary-football-missedpenalty .commentary-item-inner,.class-CARD_RED .commentary-item-inner,.class-commentary-football-redcard .commentary-item-inner,.class-PENALTIES .commentary-item-inner,.class-commentary-football-penalties .commentary-item-inner,.class-TRY .commentary-item-inner,.class-SET_FINAL .commentary-item-inner,.class-THIRD-UMPIRE-REVIEW .commentary-item-inner,.class-NOT-OUT .commentary-item-inner .class-BREAKING .commentary-item-inner,.class-CRASH .commentary-item-inner,.class-FLAG_BLACK .commentary-item-inner,.class-FLAG_RED .commentary-item-inner,.class-RETIREMENT .commentary-item-inner,.class-OVERTAKE .commentary-item-inner,.class-UMPIRE_REVIEW .commentary-item-inner,.class-commentary-cricket-umpirereview .commentary-item-inner,.class-NOT_OUT .commentary-item-inner,.class-commentary-cricket-notout .commentary-item-inner,.class-TOSS .commentary-item-inner,.class-DECLARATION .commentary-item-inner,.class-FIVE_FOR .commentary-item-inner,.class-commentary-cricket-thatsfivewickets .commentary-item-inner,.class-RUNS_100 .commentary-item-inner,.class-commentary-cricket-thats100 .commentary-item-inner,.class-RUNS_200 .commentary-item-inner,.class-commentary-cricket-thats200 .commentary-item-inner,.class-RUNS_300 .commentary-item-inner,.class-SET_1 .commentary-item-inner,.class-SET_2 .commentary-item-inner,.class-SET_3 .commentary-item-inner,.class-SET_4 .commentary-item-inner,.class-BIRDIE .commentary-item-inner,.class-EAGLE .commentary-item-inner,.class-ALBATROSS .commentary-item-inner,.class-BOGEY .commentary-item-inner,.class-BOGEY_DOUBLE .commentary-item-inner,.class-BOGEY_TRIPLE .commentary-item-inner,.class-TRY_REVIEW .commentary-item-inner,.class-TRY_NO .commentary-item-inner,.class-PENALTY .commentary-item-inner,.class-PENALTY_MISS .commentary-item-inner,.class-DROP_GOAL .commentary-item-inner,.class-PENALTIES .commentary-item-inner,.class-CARD_RED .commentary-item-inner,.live-event-cricket .class-TOSS .commentary-item-inner,.class-LIVE_NOW .commentary-item-inner,.class-GOSSIP .commentary-item-inner
+	{
+	border-color: #1a6ffd
+}
+
+.class-SECONDARY-INCIDENT .commentary-item-inner,.class-GOAL_DISALLOW .commentary-item-inner,.class-commentary-football-disallowed .commentary-item-inner,.class-CARD_YELLOW .commentary-item-inner,.class-commentary-football-yellowcard .commentary-item-inner,.class-SUBSTITUTION .commentary-item-inner,.class-commentary-football-substitution .commentary-item-inner,.class-KICK_OFF.commentary-item-inner,.class-HALF_TIME .commentary-item-inner,.class-BOOKING .commentary-item-inner,.class-FULL_TIME .commentary-item-inner,.class-ADDED_TIME .commentary-item-inner,.class-EXTRA_TIME .commentary-item-inner,.class-TEAM_NEWS .commentary-item-inner,.class-LINE_UPS .commentary-item-inner,.class-HIT_WOODWORK .commentary-item-inner,.class-commentary-football-hitsthewoodwork .commentary-item-inner,.class-GO .commentary-item-inner,.class-PIT_STOP .commentary-item-inner,.class-SPIN .commentary-item-inner,.class-SAFETY_CAR .commentary-item-inner,.class-FLAG_YELLOW .commentary-item-inner,.class-DRIVE_THROUGH_PEN .commentary-item-inner,.class-INCREDIBLE .commentary-item-inner,.class-QUAL_1_START .commentary-item-inner,.class-QUAL_1_END .commentary-item-inner,.class-QUAL_2_START .commentary-item-inner,.class-QUAL_2_END .commentary-item-inner,.class-QUAL_3_START .commentary-item-inner,.class-QUAL_3_END .commentary-item-inner,.class-MECH_FAILURE .commentary-item-inner,.class-APPEAL_NOT_OUT .commentary-item-inner,.class-commentary-cricket-appealnotout .commentary-item-inner,.class-DROPPED_CATCH .commentary-item-inner,.class-commentary-cricket-droppedcatch .commentary-item-inner,.class-RAIN_STOPS_PLAY .commentary-item-inner,.class-commentary-cricket-rainstopsplay .commentary-item-inner,.class-BAD_LIGHT .commentary-item-inner,.class-commentary-cricket-badlightstopsplay .commentary-item-inner,.class-CLOSE_OF_PLAY .commentary-item-inner,.class-commentary-cricket-closeofplay .commentary-item-inner,.class-INTERVAL .commentary-item-inner,.class-commentary-cricket-interval .commentary-item-inner,.class-RUNS_50 .commentary-item-inner,.class-RUNS_150 .commentary-item-inner,.class-RUNS_250 .commentary-item-inner,.class-POWERPLAY .commentary-item-inner,.class-RECORD .commentary-item-inner,.class-commentary-cricket-recordsarecord .commentary-item-inner,.class-TIE_BREAK .commentary-item-inner,.class-CHALLENGE .commentary-item-inner,.class-CHALLENGE_SUCCESS .commentary-item-inner,.class-CHALLENGE_FAIL .commentary-item-inner,.class-SHOT .commentary-item-inner,.class-UGLY .commentary-item-inner,.class-SPLASH .commentary-item-inner,.class-OUT_OF_BOUNDS .commentary-item-inner,.class-TRY_DISALLOW .commentary-item-inner,.class-KICK_OFF .commentary-item-inner,.class-HALF_TIME .commentary-item-inner,.class-FULL_TIME .commentary-item-inner,.class-EXTRA_TIME .commentary-item-inner,.class-SIN_BIN .commentary-item-inner,.class-SUBSTITUTION .commentary-item-inner,.class-BOOKING .commentary-item-inner,.live-event-cricket .class-RECORD .commentary-item-inner,.live-event-cricket .class-commentary-cricket-recordsarecord .commentary-item-inner
+	{
+	border-color: #5e9afe
+}
+
+.class-TERTIARY-INCIDENT .commentary-item-inner,.class-MAN_OF_MATCH .commentary-item-inner,.class-GB_UP .commentary-item-inner,.class-GB_DOWN .commentary-item-inner,.class-INSPECTION .commentary-item-inner,.class-commentary-cricket-inspection .commentary-item-inner,.class-DRINKS_BREAK .commentary-item-inner,.class-commentary-cricket-drinksbreak .commentary-item-inner,.class-DUCKWORTH_LEWIS .commentary-item-inner,.class-commentary-cricket-duckworthlewis .commentary-item-inner,.class-MAN_OF_MATCH .commentary-item-inner,.class-MAN_OF_SERIES .commentary-item-inner,.class-LATEST_SCORES .commentary-item-inner,.class-LATEST_RESULTS .commentary-item-inner,.class-SHOCK .commentary-item-inner,.class-BAGEL .commentary-item-inner,.class-WIMBLEDON_MOLE .commentary-item-inner,.class-ROOF_CLOSED .commentary-item-inner,.class-GB_UP .commentary-item-inner,.class-GB_DOWN .commentary-item-inner,.class-USA_UP .commentary-item-inner,.class-USA_DOWN .commentary-item-inner,.class-SPAIN_UP .commentary-item-inner,.class-SPAIN_DOWN .commentary-item-inner,.class-SWITZERLAND_UP .commentary-item-inner,.class-SWITZERLAND_DOWN .commentary-item-inner,.class-SERBIA_UP .commentary-item-inner,.class-SERBIA_DOWN .commentary-item-inner,.class-SWEDEN_UP .commentary-item-inner,.class-SWEDEN_DOWN .commentary-item-inner,.class-RUSSIA_UP .commentary-item-inner,.class-RUSSIA_DOWN .commentary-item-inner,.class-CZECH_REP_UP .commentary-item-inner,.class-CZECH_REP_DOWN .commentary-item-inner,.class-DENMARK_UP .commentary-item-inner,.class-DENMARK_DOWN .commentary-item-inner,.class-FRANCE_UP .commentary-item-inner,.class-FRANCE_DOWN .commentary-item-inner,.class-ITALY_UP .commentary-item-inner,.class-ITALY_DOWN .commentary-item-inner,.class-GERMANY_UP .commentary-item-inner,.class-GERMANY_DOWN .commentary-item-inner,.class-AUSTRALIA_UP .commentary-item-inner,.class-AUSTRALIA_DOWN .commentary-item-inner,.class-ARGENTINA_UP .commentary-item-inner,.class-ARGENTINA_DOWN .commentary-item-inner,.class-CHINA_UP .commentary-item-inner,.class-CHINA_DOWN .commentary-item-inner,.class-BELGIUM_UP .commentary-item-inner,.class-BELGIUM_DOWN .commentary-item-inner,.class-LEADERBOARD .commentary-item-inner,.class-EUROPE_UP .commentary-item-inner,.class-EUROPE_DOWN .commentary-item-inner,.class-USA_UP .commentary-item-inner,.class-USA_DOWN .commentary-item-inner,.class-ENGLAND_UP .commentary-item-inner,.class-ENGLAND_DOWN .commentary-item-inner,.class-SCOTLAND_UP .commentary-item-inner,.class-SCOTLAND_DOWN .commentary-item-inner,.class-WALES_UP .commentary-item-inner,.class-WALES_DOWN .commentary-item-inner,.class-NI_UP .commentary-item-inner,.class-NI_DOWN .commentary-item-inner,.class-RAIN .commentary-item-inner,.class-RECORD .commentary-item-inner,.class-commentary-cricket-recordsarecord .commentary-item-inner,.class-HANDBAGS .commentary-item-inner,.class-commentary-football-handbags .commentary-item-inner,.class-OUCH .commentary-item-inner,.class-commentary-cricket-ouch .commentary-item-inner,.class-SUN .commentary-item-inner,.class-commentary-cricket-thesunisout .commentary-item-inner,.class-CELEB_SPOTTED .commentary-item-inner,.class-BLOG .commentary-item-inner,.class-blog .commentary-item-inner,.class-BRIT_BAD .commentary-item-inner,.class-BRIT_GOOD .commentary-item-inner,.class-CELEBRATION .commentary-item-inner,.class-CHAMPAGNE .commentary-item-inner,.class-commentary-cricket-champagnemoment .commentary-item-inner,.class-DECORATION .commentary-item-inner,.class-EMAIL .commentary-item-inner,.class-email .commentary-item-inner,.class-FOOD_AND_DRINK .commentary-item-inner,.class-HANDOVER .commentary-item-inner,.class-SECURITY .commentary-item-inner,.class-SMS .commentary-item-inner,.class-sms .commentary-item-inner,.class-TWEET .commentary-item-inner,.class-twitter .commentary-item-inner,.class-WORLD_REACTION .commentary-item-inner
+	{
+	border-color: #a3c5fe
+}
+
+.class-commentary .commentary-item-inner .heading,.class-contributor .commentary-item-inner .heading,.class-sms .commentary-item-inner .heading,.class-twitter .commentary-item-inner .contributor,.class-twitter .commentary-item-inner .heading
+	{
+	display: none
+}
+
+.class-STANDARD .commentary-item-inner,.class-USER-COMMENT .commentary-item-inner
+	{
+	border-color: #dcdcdc
+}
+
+.bbc-contributor .commentary-item-inner,.class-contributor .commentary-item-inner
+	{
+	border-color: #ffe710
+}
+
+.promo {
+	background-color: #f5f5f5
+}
+
+.promo ul {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	list-style: none
+}
+
+.promo li {
+	padding-bottom: 8px
+}
+
+.promo .last {
+	padding-bottom: 0
+}
+
+.promo .media-span {
+	display: none
+}
+
+.promo .title,.promo .summary {
+	display: block;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.promo .summary {
+	padding-bottom: 4px
+}
+
+.promo.radio-coverage {
+	display: none
+}
+
+.media-wall {
+	display: none
+}
+
+.share-this ul {
+	padding-top: 8px
+}
+
+.share-this ul a {
+	display: block;
+	overflow: hidden
+}
+
+.share-this .spr {
+	height: 0;
+	display: block;
+	padding-top: 24px
+}
+
+.share-this li .facebook {
+	background-position: 50% -168px;
+	background-color: #3a5897
+}
+
+.share-this li .twitter {
+	background-position: 50% -192px;
+	background-color: #5ec5ed
+}
+
+.share-this li .email {
+	background-position: 50% -216px;
+	background-color: #4f4d4b
+}
+
+.share-this .link {
+	display: block;
+	padding-top: 8px;
+	clear: both;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.story .rta {
+	padding-top: 12px;
+	border-top: 1px solid #dcdcdc
+}
+
+.map .mp {
+	position: relative
+}
+
+.js .map .mp {
+	display: none
+}
+
+.map .media-playback-not-supported {
+	padding: 6px 0 8px;
+	color: #000;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.231
+}
+
+.map .media-playback-not-supported span {
+	line-height: 16px
+}
+
+.story-list .toggler .toggle-btn {
+	display: none
+}
+
+.story-list .first {
+	padding-top: 8px
+}
+
+.story-list.no-top-pad .first {
+	padding-top: 0
+}
+
+.story-list .article {
+	width: 100%;
+	display: block;
+	margin-bottom: 8px;
+	position: relative;
+	float: left;
+	clear: both
+}
+
+.story-list .article.last {
+	margin-bottom: 0
+}
+
+.story-list a {
+	display: block;
+	text-decoration: none
+}
+
+.story-list .title {
+	display: block;
+	padding: 0;
+	float: left;
+	font-size: 1.3em;
+	color: #1659b4;
+	line-height: 1.231
+}
+
+.story-list a:hover .title {
+	text-decoration: underline
+}
+
+.story-list .media {
+	position: relative;
+	line-height: 0
+}
+
+.story-list .media img {
+	width: 100%;
+	height: auto
+}
+
+.story-list .compact-media .media img,.story-list .tablet-media .media img
+	{
+	display: none
+}
+
+.story-list .media-span .spr {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	z-index: 2;
+	left: 4px;
+	bottom: 0
+}
+
+.story-list .media-span .spr.watch {
+	background-position: -24px -27px
+}
+
+.story-list .media-span .spr.watch-live {
+	background-position: 0 -27px
+}
+
+.story-list .media-span .spr.listen {
+	background-position: -72px -27px
+}
+
+.story-list .media-span .spr.listen-live {
+	background-position: -48px -27px
+}
+
+.story-list .info-span .spr {
+	float: left;
+	margin: 1px 4px 0 0
+}
+
+.story-list .dateline,.story-list .summary,.story-list .media.delayed,.story-list .media-span
+	{
+	display: none
+}
+
+.story-list .info-span {
+	width: 100%;
+	float: left
+}
+
+.story-list .top-lead .info-span .spr.watch,.story-list .top-lead .info-span .spr.watch-live,.story-list .top-lead .info-span .spr.listen,.story-list .top-lead .info-span .spr.listen-live
+	{
+	display: none
+}
+
+.story-list .top-lead .media-span {
+	display: block;
+	width: 33.33333333%;
+	float: left
+}
+
+.story-list .top-lead .info-span {
+	width: 66.66666666%;
+	float: left
+}
+
+.meta-header p {
+	font-size: 1.2em;
+	line-height: 1;
+	margin-bottom: 4px;
+	color: #6f6f6f;
+	padding: 0
+}
+
+.meta-header p.last {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #dcdcdc;
+	margin-bottom: 12px
+}
+
+.tabs {
+	display: none
+}
+
+.teams-by-competition ol {
+	list-style: none
+}
+
+.mod.football-fl h2 {
+	color: #fff;
+	text-transform: uppercase;
+	border-bottom: 0;
+	background: #5e5e5e
+}
+
+.football-fl .competition {
+	font-size: 1.3em;
+	line-height: 1.231;
+	background-color: #d7d7d7;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: .4em;
+	padding-bottom: .4em
+}
+
+.football-fl .competition-name {
+	display: block;
+	position: relative;
+	overflow: hidden
+}
+
+.football-fl a.toggle-scorers {
+	display: none
+}
+
+.football-fl ol {
+	list-style: none
+}
+
+.football-fl li {
+	width: 100%;
+	min-height: 4.2em;
+	position: relative;
+	float: left;
+	border-top: 1px solid #fff;
+	background: #f5f5f5
+}
+
+.football-fl .fixture {
+	width: 100%;
+	min-height: 3.4em;
+	display: block;
+	color: #000
+}
+
+.football-fl a.fixture:hover .club,.football-fl .has-info:hover .club {
+	text-decoration: underline
+}
+
+.football-fl ol span {
+	display: block
+}
+
+.football-fl .team {
+	width: 49.9%;
+	padding: .462em 0;
+	position: relative;
+	z-index: 10;
+	float: left;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.football-fl .team.away {
+	float: right
+}
+
+.football-fl .team.home .details {
+	padding-right: 2.308em;
+	text-align: right
+}
+
+.football-fl .team.away .details {
+	padding-left: 2.308em
+}
+
+.football-fl .club {
+	display: block;
+	padding-left: 8px;
+	position: relative;
+	overflow: hidden
+}
+
+.football-fl .away .club {
+	padding-left: 0;
+	padding-right: 8px
+}
+
+.football-fl .team .score {
+	position: absolute;
+	top: .462em;
+	right: .615em;
+	z-index: 10;
+	font-size: 1em
+}
+
+.football-fl .type-fulltime .score,.football-fl .type-extratimefulltime .score,.football-fl .type-penaltiescomplete .score,.football-fl .type-live .score,.football-fl .type-halftime .score,.football-fl .type-extratime .score,.football-fl .type-extratimehalftime .score,.football-fl .type-penalties .score,.football-fl .type-suspended .score,.football-fl .type-resumed .score
+	{
+	color: #fff
+}
+
+.football-fl .team.away .score {
+	left: .615em
+}
+
+.football-fl .hyphen {
+	width: .400em;
+	height: .200em;
+	margin-left: -0.200em;
+	position: absolute;
+	top: 1.400em;
+	left: 50%;
+	z-index: 11;
+	background: #000
+}
+
+.football-fl .type-fulltime .hyphen,.football-fl .type-extratimefulltime .hyphen,.football-fl .type-penaltiescomplete .hyphen,.football-fl .type-live .hyphen,.football-fl .type-halftime .hyphen,.football-fl .type-extratime .hyphen,.football-fl .type-extratimehalftime .hyphen,.football-fl .type-penalties .hyphen,.football-fl .type-suspended .hyphen,.football-fl .type-resumed .hyphen
+	{
+	background: #fff
+}
+
+.football-fl .versus {
+	width: 4.364em;
+	height: 2.545em;
+	margin-left: -2.182em;
+	padding-top: .909em;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 11;
+	text-align: center;
+	font-size: 1.1em
+}
+
+.football-fl .meta {
+	width: 4.364em;
+	margin-left: -2.182em;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	bottom: 0;
+	z-index: 1;
+	font-size: 1.1em;
+	text-align: center;
+	background: #dcdcdc
+}
+
+.football-fl .type-result .meta,.football-fl .type-abandoned .meta {
+	background: #ffe710
+}
+
+.football-fl .type-fulltime .meta,.football-fl .type-extratimefulltime .meta,.football-fl .type-penaltiescomplete .meta,.football-fl .type-live .meta,.football-fl .type-halftime .meta,.football-fl .type-extratime .meta,.football-fl .type-extratimehalftime .meta,.football-fl .type-penalties .meta,.football-fl .type-suspended .meta,.football-fl .type-resumed .meta
+	{
+	background: #0087ff;
+	color: #fff
+}
+
+.football-fl .minutes,.football-fl .state,.football-fl .ko,.football-fl .pp
+	{
+	width: 4.364em;
+	position: absolute;
+	left: 0;
+	bottom: .364em
+}
+
+.football-fl .arrow {
+	display: none
+}
+
+.football-fl .info {
+	display: none
+}
+
+.refresh-scores {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	float: right
+}
+
+.refresh-scores .spr-football {
+	width: 116px;
+	height: 24px;
+	background-position: -14px 0
+}
+
+.fke {
+	position: relative;
+	clear: both;
+	font-size: 1.2em;
+	line-height: 1.333;
+	background: #f5f5f5;
+	border-bottom: 1px solid #fff
+}
+
+.fke:after {
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: '';
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff
+}
+
+.fke li {
+	width: 50%;
+	min-height: 0;
+	padding: 4px 0;
+	float: none;
+	position: relative;
+	text-align: right;
+	background: 0;
+	border: 0;
+	border-right: 1px solid #fff
+}
+
+.fke li.away {
+	position: relative;
+	left: 50%;
+	text-align: left;
+	border-right: 0;
+	border-left: 1px solid #fff
+}
+
+.fke .icon {
+	width: 12px;
+	height: 0;
+	padding-top: 12px;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	background-position: 0 0
+}
+
+.fke .icon.dismissal {
+	background-position: 0 -12px
+}
+
+.fke .icon.booking {
+	background-position: 0 -24px
+}
+
+.fke .away .icon {
+	left: 6px
+}
+
+.fke .player {
+	display: block;
+	padding-left: 4px;
+	padding-right: 25%;
+	padding-right: 33px
+}
+
+.fke .away .player {
+	padding-left: 25%;
+	padding-left: 33px;
+	padding-right: 4px
+}
+
+.fkod {
+	padding: 8px 8px 0;
+	font-size: 1.1em;
+	line-height: 1.182;
+	text-align: center
+}
+
+.fkod .category {
+	display: block;
+	color: #4f4d4b;
+	text-transform: uppercase
+}
+
+.fkod .date,.fkod .ko,.fkod .venue {
+	font-size: 1.182em
+}
+
+.fkod .venue {
+	display: block
+}
+
+.football-last-updated {
+	padding: 0 8px;
+	clear: both;
+	position: absolute;
+	top: .8em;
+	font-size: 1.3em
+}
+
+.football-last-updated b {
+	font-weight: bold
+}
+
+.fmb {
+	position: relative;
+	margin-top: 8px
+}
+
+.fmb .team-name {
+	display: block;
+	padding: 0 0 8px;
+	color: #000;
+	font-size: 1.4em;
+	line-height: 1.143
+}
+
+.fmb .teams {
+	position: relative
+}
+
+.fmb .team {
+	width: 40%;
+	margin-bottom: 8px;
+	float: left;
+	text-align: center
+}
+
+.fmb .away.team {
+	float: right
+}
+
+.fmb .team .outer-inner {
+	min-height: 32px;
+	display: block
+}
+
+.fmb .team .score {
+	width: 50%;
+	margin-left: 0;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	z-index: 2;
+	font-size: 1.4em;
+	line-height: 1.143;
+	color: #000;
+	text-align: right
+}
+
+.fmb .away.team .score {
+	margin-left: 0;
+	left: 50%;
+	text-align: left
+}
+
+.fmb .team .goals {
+	padding-right: 8px
+}
+
+.fmb .team.away .goals {
+	padding-left: 8px;
+	padding-right: 0
+}
+
+.fmb.status-penaltiescomplete .score,.fmb.status-extratimefulltime .score,.fmb.status-fulltime .score,.fmb.status-resumed .score,.fmb.status-suspended .score,.fmb.status-penalties .score,.fmb.status-extratimehalftime .score,.fmb.status-extratime .score,.fmb.status-halftime .score,.fmb.status-live .score
+	{
+	color: #fff
+}
+
+.fmb .versus {
+	width: 2.143em;
+	height: 2.143em;
+	display: block;
+	margin-left: -1.071em;
+	position: absolute;
+	left: 50%;
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 2.143;
+	background: #dadada
+}
+
+.fmb .kod {
+	clear: both;
+	text-align: center
+}
+
+.fmb .kod .date,.fmb .kod .ko,.fmb .kod .venue {
+	display: block;
+	font-size: 1.1em;
+	line-height: 1.455
+}
+
+.fmb .kod .competition {
+	text-transform: uppercase
+}
+
+.fmb .match-details {
+	width: 20%;
+	max-width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 8px;
+	padding-top: 2.000em;
+	position: relative;
+	font-size: 1.2em;
+	line-height: 1.333;
+	color: #000;
+	text-align: center;
+	background: #dcdcdc
+}
+
+.fmb .match-details li {
+	padding: 2px
+}
+
+.fmb.status-unknown .match-details,.fmb.status-cancelled .match-details,.fmb.status-postponed .match-details,.fmb.status-fixture .match-details
+	{
+	display: none
+}
+
+.fmb.status-result .match-details,.fmb.status-abandoned .match-details {
+	background: #ffe710
+}
+
+.fmb.status-penaltiescomplete .match-details,.fmb.status-extratimefulltime .match-details,.fmb.status-fulltime .match-details,.fmb.status-resumed .match-details,.fmb.status-suspended .match-details,.fmb.status-penalties .match-details,.fmb.status-extratimehalftime .match-details,.fmb.status-extratime .match-details,.fmb.status-halftime .match-details,.fmb.status-live .match-details
+	{
+	color: #fff;
+	background: #0087ff
+}
+
+.fmb .hyphen {
+	width: 6px;
+	height: 2px;
+	display: block;
+	margin-left: -3px;
+	position: absolute;
+	top: 12px;
+	left: 50%;
+	z-index: 2;
+	background: #000
+}
+
+.fmb.status-penaltiescomplete .hyphen,.fmb.status-extratimefulltime .hyphen,.fmb.status-fulltime .hyphen,.fmb.status-resumed .hyphen,.fmb.status-suspended .hyphen,.fmb.status-penalties .hyphen,.fmb.status-extratimehalftime .hyphen,.fmb.status-extratime .hyphen,.fmb.status-halftime .hyphen,.fmb.status-live .hyphen
+	{
+	background: #fff
+}
+
+.fmb .scoreline {
+	font-size: 1.3em
+}
+
+.fmb .additional-detail {
+	padding: 2px 0;
+	color: #1c1c1c;
+	background: #dcdcdc;
+	border-top: 1px solid #fff
+}
+
+.match-comment {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	clear: both;
+	font-size: 1.2em;
+	line-height: 1.333;
+	text-align: center;
+	color: #000;
+	background: #dcdcdc
+}
+
+.fmc {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #4f4d4b;
+	line-height: 1.333;
+	background: #dcdcdc
+}
+
+.live-scores a.fixture+.info .fmc {
+	border-bottom: 1px solid #fff
+}
+
+.ft.mod h2 {
+	color: #fff;
+	background-color: #424242
+}
+
+.ft table {
+	width: 100%;
+	font-size: 1.3em;
+	line-height: 1.231;
+	color: #4f4d4b;
+	border-collapse: collapse;
+	background-color: #eef2f4
+}
+
+.ft .divider td {
+	border-top: 1px solid #ccc
+}
+
+.ft th {
+	overflow: hidden;
+	padding: 4px 0 4px 8px;
+	color: #fff;
+	text-align: left;
+	background-color: #5e5e5e
+}
+
+.ft .position {
+	width: 2.308em
+}
+
+.ft .played,.ft .won,.ft .drawn,.ft .lost,.ft .goal-difference,.ft .points
+	{
+	width: 2em;
+	text-align: center
+}
+
+.ft .points {
+	padding-right: 8px
+}
+
+.ft td {
+	overflow: hidden;
+	padding: 4px 0 4px 8px;
+	background-color: #eef2f4;
+	border-top: 1px solid #fff
+}
+
+.ft tfoot tr {
+	background: #fff
+}
+
+.ft tfoot td {
+	padding-bottom: 0;
+	background-color: #fff;
+	border-top: 1px solid #ededed
+}
+
+.ft tfoot tr.first td {
+	border-top: 0;
+	padding-top: 8px
+}
+
+.ft .movement {
+	width: 12px;
+	height: 0;
+	margin-top: 5px;
+	padding-top: 7px;
+	float: right
+}
+
+.ft .movement.up {
+	background-position: 0 -43px
+}
+
+.ft .movement.down {
+	background-position: 0 -36px
+}
+
+.ft .movement.none {
+	width: 10px;
+	margin-top: 7px;
+	padding-top: 2px;
+	background-position: -1px -50px
+}
+
+.ft td a,.ft td abbr {
+	display: block
+}
+
+.ft .competition-links a {
+	display: block;
+	padding-top: 8px;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.ft .s480 {
+	display: none
+}
+
+.ft.s320 {
+	display: none
+}
+
+.ftl {
+	position: relative
+}
+
+.ftl .wrap {
+	background: #eee
+}
+
+.ftl h3 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #fff;
+	font-size: 1.3em;
+	line-height: 1.231;
+	background: #535353;
+	border-bottom: 1px solid #fff
+}
+
+.ftl .team {
+	width: 50%;
+	float: left
+}
+
+.ftl .subs {
+	clear: left
+}
+
+.ftl .subs.away {
+	clear: none
+}
+
+.ftl .team ul {
+	padding-bottom: 12px
+}
+
+.ftl .team li {
+	padding: 8px 0 0 22px;
+	position: relative;
+	color: #626262;
+	font-size: 1.3em;
+	line-height: 1.231
+}
+
+.ftl .team li b {
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 0;
+	color: #000
+}
+
+.ftl .team li .icon {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	padding: 0;
+	position: relative;
+	top: 1px;
+	overflow: hidden;
+	text-indent: 110%;
+	background-position: 0 0
+}
+
+.ftl .team li .icon.booking {
+	background-position: 0 -24px
+}
+
+.ftl .team li .icon.dismissal {
+	background-position: 0 -12px
+}
+
+.ftl .additional-information {
+	clear: both;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: relative;
+	z-index: 2;
+	font-size: 1.3em;
+	line-height: 1.231;
+	border-top: 1px solid #fff;
+	background: #eee
+}
+
+.ftl .additional-information dt {
+	margin: 0 6px 6px 0;
+	float: left;
+	clear: left;
+	font-weight: bold;
+	color: #000
+}
+
+.ftl .additional-information dd {
+	margin-bottom: 6px;
+	color: #626262
+}
+
+.ftl .additional-information .last {
+	margin-bottom: 0
+}
+
+.ftl .additional span {
+	display: block;
+	padding: 0 0 6px
+}
+
+.ftl .sep {
+	width: 1px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	bottom: 0;
+	z-index: 1;
+	background: #fff
+}
+
+.rugby-match-box .venue {
+	background-color: #000;
+	border-bottom: 1px #fff solid;
+	width: 100%;
+	clear: both;
+	display: block;
+	color: #fff;
+	line-height: 25px;
+	text-indent: 10px;
+	font-size: 1.4em
+}
+
+.rugby-match-box .teams {
+	background: url(../img/grass-160x80.png?jcb=1361454396) repeat 0 0;
+	position: relative
+}
+
+.rugby-match-box .team .team-name {
+	padding: 4px 8px;
+	overflow: hidden;
+	font-size: 1.6em;
+	line-height: 1.250;
+	color: #fff;
+	background: #1c1c1c;
+	background: rgba(0, 0, 0, 0.5)
+}
+
+.rugby-match-box .kod {
+	max-width: 60%;
+	margin: 0 auto 8px;
+	padding: 8px;
+	background: #1c1c1c;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff
+}
+
+.rugby-match-box .category-tag {
+	color: #fff
+}
+
+.rugby-match-box {
+	position: relative;
+	margin-top: 8px
+}
+
+.rugby-match-box .team-name {
+	display: block;
+	padding: 0 0 8px;
+	color: #000;
+	font-size: 1.4em;
+	line-height: 1.143
+}
+
+.rugby-match-box .team {
+	width: 40%;
+	margin-bottom: 8px;
+	float: left;
+	text-align: center
+}
+
+.rugby-match-box .away.team {
+	float: right
+}
+
+.rugby-match-box .team .outer-inner {
+	min-height: 32px;
+	display: block
+}
+
+.rugby-match-box .team .score {
+	width: 50%;
+	margin-left: 0;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	z-index: 2;
+	font-size: 1.4em;
+	line-height: 1.143;
+	color: #000;
+	text-align: right
+}
+
+.rugby-match-box .away.team .score {
+	margin-left: 0;
+	left: 50%;
+	text-align: left
+}
+
+.rugby-match-box .team .goals {
+	padding-right: 8px
+}
+
+.rugby-match-box .team.away .goals {
+	padding-left: 8px;
+	padding-right: 0
+}
+
+.rugby-match-box.status-penaltiescomplete .score,.rugby-match-box.status-extratimefulltime .score,.rugby-match-box.status-fulltime .score,.rugby-match-box.status-resumed .score,.rugby-match-box.status-suspended .score,.rugby-match-box.status-extratimehalftime .score,.rugby-match-box.status-extratime .score,.rugby-match-box.status-halftime .score,.rugby-match-box.status-live .score
+	{
+	color: #fff
+}
+
+.rugby-match-box .versus {
+	width: 2.143em;
+	height: 2.143em;
+	display: block;
+	margin-left: -1.071em;
+	position: absolute;
+	left: 50%;
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 2.143;
+	background: #dadada
+}
+
+.rugby-match-box .kod {
+	clear: both;
+	text-align: center
+}
+
+.rugby-match-box .kod .date,.rugby-match-box .kod .ko,.rugby-match-box .kod .venue
+	{
+	display: block;
+	font-size: 1.1em;
+	line-height: 1.455
+}
+
+.rugby-match-box .kod .competition {
+	text-transform: uppercase
+}
+
+.rugby-match-box .match-details {
+	width: 20%;
+	max-width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 8px;
+	padding-top: 2.000em;
+	position: relative;
+	font-size: 1.2em;
+	line-height: 1.333;
+	color: #000;
+	text-align: center;
+	background: #dcdcdc
+}
+
+.rugby-match-box .match-details li {
+	padding: 2px
+}
+
+.rugby-match-box.status-unknown .match-details,.rugby-match-box.status-cancelled .match-details,.rugby-match-box.status-postponed .match-details,.rugby-match-box.status-fixture .match-details
+	{
+	display: none
+}
+
+.rugby-match-box.status-result .match-details,.rugby-match-box.status-abandoned .match-details
+	{
+	background: #ffe710
+}
+
+.rugby-match-box.status-penaltiescomplete .match-details,.rugby-match-box.status-extratimefulltime .match-details,.rugby-match-box.status-fulltime .match-details,.rugby-match-box.status-resumed .match-details,.rugby-match-box.status-suspended .match-details,.rugby-match-box.status-penalties .match-details,.rugby-match-box.status-extratimehalftime .match-details,.rugby-match-box.status-extratime .match-details,.rugby-match-box.status-halftime .match-details,.rugby-match-box.status-live .match-details
+	{
+	color: #fff;
+	background: #0087ff
+}
+
+.rugby-match-box .hyphen {
+	width: 6px;
+	height: 2px;
+	display: block;
+	margin-left: -3px;
+	position: absolute;
+	top: 12px;
+	left: 50%;
+	z-index: 2;
+	background: #000
+}
+
+.rugby-match-box.status-penaltiescomplete .hyphen,.rugby-match-box.status-extratimefulltime .hyphen,.rugby-match-box.status-fulltime .hyphen,.rugby-match-box.status-resumed .hyphen,.rugby-match-box.status-suspended .hyphen,.rugby-match-box.status-penalties .hyphen,.rugby-match-box.status-extratimehalftime .hyphen,.rugby-match-box.status-extratime .hyphen,.rugby-match-box.status-halftime .hyphen,.rugby-match-box.status-live .hyphen
+	{
+	background: #fff
+}
+
+.rugby-match-box .scoreline {
+	font-size: 1.3em
+}
+
+.rugby-match-box .additional-detail {
+	padding: 2px 0;
+	color: #1c1c1c;
+	background: #dcdcdc;
+	border-top: 1px solid #fff
+}
+
+.match-comment {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	clear: both;
+	font-size: 1.2em;
+	line-height: 1.333;
+	text-align: center;
+	color: #000;
+	background: #dcdcdc
+}
+
+.rugby-key-events table {
+	width: 100%;
+	clear: both;
+	border-collapse: collapse
+}
+
+.rugby-key-events table thead,.rugby-key-events table caption {
+	display: none
+}
+
+.rugby-key-events table td {
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 1.2em;
+	background-color: #f5f5f5;
+	border-bottom: 1px #fff solid
+}
+
+.rugby-key-events table .events {
+	font-weight: bold;
+	text-align: center
+}
+
+.rugby-key-events table .home {
+	text-align: right;
+	padding-right: .4em;
+	width: 35%
+}
+
+.rugby-key-events table .away {
+	text-align: left;
+	padding-left: .4em;
+	width: 35%
+}
+
+.ft .data-table tfoot td {
+	text-align: right;
+	font-size: 1.125em;
+	background-color: #5e5e5e;
+	color: #fff;
+	padding: 0 8px
+}
+
+.ft .data-table tfoot td a {
+	color: #fff
+}
+
+.ft .data-table tbody td a {
+	display: inline
+}
+
+.table-stats td {
+	color: #1c1c1c
+}
+
+.formula-1 .data-table caption {
+	background: #fff;
+	caption-side: bottom;
+	font-size: 1em;
+	padding: 1em
+}
+
+.tennis table caption,.data-table p.table-description {
+	background-color: #dcdcdc;
+	color: #1d1d1d;
+	font-size: 1.2em;
+	width: 100%
+}
+
+.data-table p.table-description::after {
+	display: block;
+	content: '';
+	visibility: hidden
+}
+
+.cricket-scorecard p.description {
+	font-size: 1.4em;
+	padding: 0 0 4px 8px
+}
+
+.cricket-scorecard .refresh-scores {
+	float: left
+}
+
+.cricket-scorecard .cricket-summary-table tr.top {
+	font-weight: bold
+}
+
+.cricket-scorecard .cricket-summary-table tr.top td:first-child,.cricket-scorecard .cricket-summary-table td.match-summary
+	{
+	border-right: 1px solid #fff
+}
+
+.cricket-scorecard .match-summary .innings-subtext {
+	clear: both;
+	display: block
+}
+
+.cricket-scorecard .cricket-summary-table a {
+	margin-top: 12px
+}
+
+.cricket-scorecard .cricket-summary-table .item-0,.cricket-scorecard .cricket-summary-table .item-1
+	{
+	margin-right: .2em
+}
+
+.cricket-scorecard .batting-innings .runs,.cricket-scorecard .batting-innings .cricket-extras-row
+	{
+	font-weight: bold
+}
+
+.cricket-scorecard .fow-table td.numeric {
+	text-align: left;
+	width: 20%
+}
+
+.cricket-scorecard h2 a:link,.cricket-scorecard h2 a:visited,.cricket-scorecard h2 a:hover
+	{
+	color: #fff;
+	cursor: default;
+	margin-right: 16px;
+	text-decoration: none
+}
+
+.cricket-scorecard .data-table.table-cricket-team td {
+	background-color: #fff
+}
+
+.cricket-scorecard .data-table.table-cricket-team td::parent h2 {
+	background-color: #fff
+}
+
+.cricket-scorecard th.numeric,.cricket-scorecard td.numeric,.cricket-scorecard .data-table .bowling-innings .c2,.cricket-scorecard .data-table .bowling-innings .c3,.cricket-scorecard .data-table .bowling-innings .c4,.cricket-scorecard .data-table .bowling-innings .c5,.cricket-scorecard .data-table .batting-innings .c4
+	{
+	padding-right: 4px
+}
+
+.cricket-scorecard p.umpires {
+	margin-left: 1em
+}
+
+.cricket-scorecard .footnote p {
+	text-align: left
+}
+
+.cricket-scorecard .mod .innings-subtext {
+	font-size: .8em
+}
+
+@media screen and (max-width:320px) {
+	.cricket-scorecard .batting-innings .c5,.cricket-scorecard .batting-innings .c6,.cricket-scorecard .batting-innings .c7,.cricket-scorecard .batting-innings .c8,.cricket-scorecard .batting-innings .mins,.cricket-scorecard .batting-innings .balls,.cricket-scorecard .batting-innings .fours,.cricket-scorecard .batting-innings .sixes,.cricket-scorecard .batting-innings .pad,.cricket-scorecard .cricket-batting-totals,.cricket-scorecard .bowling-innings .maidens,.cricket-scorecard .bowling-innings .c3
+		{
+		display: none
+	}
+}
+
+@media screen and (max-width:480px) {
+	.cricket-scorecard .batting-innings .c7,.cricket-scorecard .batting-innings .c8,.cricket-scorecard .batting-innings .mins,.cricket-scorecard .batting-innings .balls,.cricket-scorecard .cricket-batting-totals
+		{
+		display: none
+	}
+}
+
+.golf table caption {
+	text-align: left;
+	background-color: #dcdcdc;
+	color: #1d1d1d;
+	font-size: 1em
+}
+
+.golf-results .c2,.golf-results .country,.golf-results .c3,.golf-results .r1,.golf-results .c4,.golf-results .r2,.golf-results .c5,.golf-results .r3,.golf-results .c6,.golf-results .r4
+	{
+	display: none
+}
+
+.golf-live-scores .c3,.golf-live-scores .country,.golf-live-scores .c4,.golf-live-scores .ch-score
+	{
+	display: none
+}
+
+.tennis .mod.ft {
+	margin-bottom: 0
+}
+
+.tennis p.refresh-scores {
+	float: left
+}
+
+.tennis table caption {
+	font-size: 1em;
+	text-align: left
+}
+
+.tennis .c4,.tennis .score-cell {
+	display: none
+}
+
+.tennis .score-cell li {
+	display: inline-block;
+	text-align: center;
+	padding: 0 .4em;
+	border-left: 1px #c7c7c7 solid
+}
+
+.tennis .score-cell li:first-child {
+	border-left: none
+}
+
+.tennis .score-cell li.win {
+	font-weight: bold
+}
+
+.tennis tr.spacer td {
+	height: .2em;
+	background-color: #fff
+}
+
+.tennis .c1,.tennis .seed,.tennis sup {
+	display: none
+}
+
+.tennis .players {
+	width: 40%
+}
+
+.tennis .total-sets {
+	width: 20%
+}
+
+@media screen and (max-width:320px) {
+	.tennis table caption {
+		padding: .250em 8px
+	}
+}
+
+.court td {
+	background-color: #5e5e5e;
+	color: white
+}
+
+.rugby .data-table .alert {
+	margin: 0;
+	padding: 0
+}
+
+.rugby .home-team,.rugby .away-team {
+	width: 28%
+}
+
+.rugby .col_text {
+	width: 40%
+}
+
+.rugby .home-team {
+	text-align: right
+}
+
+.rugby .away-team {
+	text-align: left
+}
+
+.rugby .vs {
+	text-align: center
+}
+
+.rugby .kickoff,.rugby .status,.rugby .vs {
+	width: 14%;
+	white-space: nowrap
+}
+
+.live-scores td.live,.rugby .kickoff {
+	display: none
+}
+
+.rugby .status-announce {
+	text-align: center
+}
+
+.rugby .page-snippet ol {
+	list-style-type: decimal;
+	padding-left: 1.4em
+}
+
+.rugby-union .w,.rugby-union .c4,.rugby-union .d,.rugby-union .c5,.rugby-union .l,.rugby-union .c6,.rugby-union .f,.rugby-union .c7,.rugby-union .a,.rugby-union .c8,.rugby-union .b,.rugby-union .c9
+	{
+	display: none
+}
+
+.rugby-league .w,.rugby-league .c4,.rugby-league .d,.rugby-league .c5,.rugby-league .l,.rugby-league .c6,.rugby-league .f,.rugby-league .c7,.rugby-league .a,.rugby-league .c8
+	{
+	display: none
+}
+
+.cricket .data-table .alert {
+	margin: 0;
+	padding: 0
+}
+
+.cricket td {
+	vertical-align: middle
+}
+
+.cricket td a {
+	color: inherit
+}
+
+.cricket .vs,.cricket .v {
+	text-align: center;
+	width: 10%
+}
+
+.cricket .team,.cricket .home-team,.cricket .away-team {
+	width: 30%;
+	vertical-align: top
+}
+
+.cricket .home-team {
+	text-align: right
+}
+
+.cricket .score,.cricket .venue {
+	display: none
+}
+
+.cricket .table-stats thead {
+	visibility: hidden;
+	display: none
+}
+
+.cricket .table-stats td.options {
+	border-left: 1px #fff solid;
+	text-align: center
+}
+
+.cricket .table-stats td.options,.cricket .table-stats td.result {
+	width: 30%;
+	z-index: 99;
+	vertical-align: top
+}
+
+.cricket .stats-panel .event-title,.cricket .stats-panel .score-info {
+	clear: both;
+	display: block
+}
+
+.cricket .stats-panel .event-title {
+	margin-top: .4em
+}
+
+@media ( max-width :480px) {
+	.cricket span.round-name {
+		visibility: hidden;
+		display: none
+	}
+	.cricket .home-team,.cricket .away-team {
+		width: 40%
+	}
+}
+
+.cricket .league-table thead .c3,.cricket .league-table thead .c4,.cricket .league-table thead .c5,.cricket .league-table thead .c6,.cricket .league-table thead .c7,.cricket .league-table thead .c8,.cricket .league-table tbody .pld,.cricket .league-table tbody .won,.cricket .league-table tbody .bat,.cricket .league-table tbody .bwl,.cricket .league-table tbody .won,.cricket .league-table tbody .lost,.cricket .league-table tbody .drawn,.cricket .league-table tbody .ded,.cricket .league-table tbody .tied,.cricket .league-table tbody .noRes,.cricket .league-table tbody .rr
+	{
+	display: none
+}
+
+.cricket .league-table tbody .col_text {
+	width: 60%
+}
+
+.cricket .table-rankings .team,.cricket .table-rankings .c3,.cricket .table-rankings .bat,.cricket .table-rankings .c4,.cricket .table-rankings .bowl,.cricket .table-rankings .c5,.cricket .table-rankings .field,.cricket .table-rankings .c6,.cricket .table-rankings .capt,.cricket .table-rankings .c7,.cricket .table-rankings .win,.cricket .table-rankings .c8,.cricket .table-rankings .pld,.cricket .table-rankings .c9
+	{
+	display: none
+}
+
+.cricket .averageBatting thead .c2,.cricket .averageBatting thead .c3,.cricket .averageBatting thead .c4,.cricket .averageBatting thead .c6,.cricket .averageBatting thead .c8,.cricket .averageBatting thead .c9,.cricket .averageBatting thead .c10,.cricket .averageBatting thead .c11,.cricket .averageBatting tbody .matches,.cricket .averageBatting tbody .innings,.cricket .averageBatting tbody .notOuts,.cricket .averageBatting tbody .bestBatRuns,.cricket .averageBatting tbody .hundreds,.cricket .averageBatting tbody .fiftys,.cricket .averageBatting tbody .caught,.cricket .averageBatting tbody .stumped,.cricket .averageBowling thead .c2,.cricket .averageBowling thead .c3,.cricket .averageBowling thead .c4,.cricket .averageBowling thead .c8,.cricket .averageBowling thead .c9,.cricket .averageBowling thead .c10,.cricket .averageBowling thead .c11,.cricket .averageBowling tbody .overs,.cricket .averageBowling tbody .runs,.cricket .averageBowling tbody .maidens,.cricket .averageBowling tbody .fiveWickets,.cricket .averageBowling tbody .tenWickets
+	{
+	display: none
+}
+
+.cricket .averageBatting tbody .runs,.cricket .averageBatting tbody .average
+	{
+	text-align: right;
+	padding-right: 16px
+}
+
+.cricket .averageBatting thead .c5,.cricket .averageBatting thead .c7 {
+	text-align: right;
+	padding-right: 8px
+}
+
+.horse-racing .data-table tbody td {
+	vertical-align: top
+}
+
+.horse-racing .data-table tbody td:first-child {
+	font-weight: bold
+}
+
+.horse-racing .data-table thead th.c3,.horse-racing .data-table tbody td:nth-child(3)
+	{
+	display: none
+}
+
+.horse-racing .data-table tbody td .pos {
+	display: inline-block;
+	margin-right: 8px
+}
+
+.horse-racing .data-table tbody td .horse {
+	display: inline-block;
+	margin-right: 2%
+}
+
+.horse-racing .data-table tbody td .bet-name,.horse-racing .data-table tbody td .winning-trainer,.horse-racing .data-table tbody td .distances-title,.horse-racing .data-table tbody td .runners,.horse-racing .data-table tbody td .non-runners-title,.horse-racing .data-table tbody td .pos1,.horse-racing .data-table tbody td .pos
+	{
+	font-weight: bold
+}
+
+.horse-racing .data-table tbody td .bet-name,.horse-racing .data-table tbody td .bet-value,.horse-racing .data-table tbody td .jockey
+	{
+	display: none
+}
+
+.horse-racing .data-table tbody td .runners,.horse-racing .data-table tbody td .distances
+	{
+	display: inline-block
+}
+
+.horse-racing .data-table tbody .race-complete td .non-runners {
+	display: block;
+	padding-bottom: 0
+}
+
+.horse-racing .ft .data-table tfoot td {
+	text-align: left;
+	padding-left: 5%
+}
+
+.horse-racing .data-table tbody td.result {
+	width: 86%
+}
+
+@media ( min-width :340px) {
+	.horse-racing .data-table tbody td .bet-name {
+		display: block
+	}
+	.horse-racing .data-table tbody td .bet-value {
+		display: inline-block
+	}
+}
+
+.formula-1 .table-results td.car-num,.formula-1 .table-results td.grid,.formula-1 .table-results td.team,.formula-1 .table-results td.race-time,.formula-1 .table-results td.pts,.formula-1 .table-results th.c3,.formula-1 .table-results th.c4,.formula-1 .table-results th.c5,.formula-1 .table-results th.c6,.formula-1 .table-results th.c7,.formula-1.race td.car-num,.formula-1.race td.grid,.formula-1.race td.team,.formula-1.race td.gap,.formula-1.race td.lap-time,.formula-1.race td.car-num,.formula-1.race th.c3,.formula-1.race th.c4,.formula-1.race th.c5,.formula-1.race th.c6,.formula-1.race th.c7
+	{
+	display: none
+}
+
+.formula-1.practice th.c3,.formula-1.practice th.c4,.formula-1.practice td.car-num,.formula-1.practice td.team,.formula-1.starting-grid th.c3,.formula-1.starting-grid th.c4,.formula-1.starting-grid td.car-num,.formula-1.starting-grid td.grid,.formula-1.starting-grid td.team
+	{
+	display: none
+}
+
+.formula-1.qualifying th.c3,.formula-1.qualifying th.c5,.formula-1.qualifying th.c6,.formula-1.qualifying th.c7,.formula-1.qualifying td.car-num,.formula-1.qualifying td.qual-1,.formula-1.qualifying td.qual-2,.formula-1.qualifying td.qual-3
+	{
+	display: none
+}
+
+.formula-1 .standings th.c3,.formula-1 .standings th.c4,.formula-1 .standings td.country,.formula-1 .standings td.team
+	{
+	display: none
+}

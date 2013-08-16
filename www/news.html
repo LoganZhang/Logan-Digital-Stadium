@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Title
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                
+                <!--<link rel="stylesheet" type="text/css"-->
+                <!--href="css/main.css">-->
+                <!--<link rel="stylesheet" type="text/css"-->
+                <!--href="css/traffic.css">-->
+                
+                <script  src="js/jquery.min.js"></script>
+                <script>
+                    
+                    
+                    var url = 'http://app.digitalstadium.mobi/DigitalStadiumServer/bbc?callback=processData&pageType=news&value=brighton-and-hove-albion';
+                    
+                    var timer = null;
+                    
+                    $(document).ready(function() {
+                                      
+                                      loadData(url,'');
+                                      scheduleTimer();
+                                      
+                                      });
+                    
+                    function processData(data)
+                    {
+                        
+                        //clear the old data
+                        $('#bbc-content').html("");
+                        
+                        
+                        $('title').html(data.ClubName);
+                        for(var i = 0;i < data.NewsItem.length;i++) {
+                            $('#bbc-content').append("<img src=\"data:image/jpeg;base64," + data.NewsItem[i].base64JpegImg + "\" />");
+                            $('#bbc-content').append("<h2>" + data.NewsItem[i].Title + "</h2>");
+                            $('#bbc-content').append("<div>" + data.NewsItem[i].textContent + "</div>");
+                            
+                            $('#bbc-content').append("<hr style='color: #00f;background-color: #00f;height: 5px; margin-top: 5px;' />");
+                        }
+                        
+                        $('#splash').hide();
+                        $('#container').show();
+                        scheduleTimer();
+                    }
+                    
+                    function setUpdated(updatedTime, colour)
+                    {
+                        $('#last-updated').html(updatedTime);
+                        $('#last-updated').css('backgroundColor', colour);
+                    }
+                    
+                    
+                    function clearUserTimeout()
+                    {
+                        if(timer!=null)
+                        {
+                            clearTimeout(timer);
+                            timer = null;
+                        }
+                    }
+                    
+                    
+                    function scheduleTimer()
+                    {
+                        clearUserTimeout();
+                        
+                        timer = setTimeout(function(){
+                                           
+                                           DigitalStadium.loadData(url,'');
+                                           scheduleTimer();
+                                           
+                                           }, 30000);
+                        
+                        
+                    }
+                    
+                    
+                    function ajaxCall(localUrl)
+                    {
+                        $.ajax({
+                               type: 'GET',
+                               url: localUrl,
+                               async: false,
+                               jsonpCallback: 'processData',
+                               contentType: "application/json",
+                               dataType: 'jsonp',
+                               success: function(json) {
+                               console.dir(json.sites);
+                               },
+                               error: function(e) {
+                               console.log(e.message);
+                               }
+                               });
+                    }
+                    
+                    function loadData(webUrl, vars)
+                    {
+                        
+                        window.location="/loaddata/"+webUrl+vars;
+                        
+                    }
+                    </script>
+    </head>
+    
+    <body>
+        <h1 style='font-weight:bold; font-size:18px; margin-top:5px; margin-bottom:5px;  font-size:14px;'>News Information</h1>
+        <div id='splash' style="min-height:1000px">
+            <div class="mod ft">
+                <img style="
+                position:fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -50px;" src="img/ajax-loader-white.gif" />
+            </div>
+        </div>
+        <div id='container' style='display:none; margin-top:10px' >
+            
+            <p style='margin-top:5px;margin-bottom:5px'>Updated: <span style='color:black' id='last-updated'></span> </p>
+            
+            <div id="bbc-content">
+                
+            </div>
+            
+            <div data-role="footer" id="acknowledgement">
+                <p style="color:black">  <a href="http://m.bbc.co.uk/">BBC</a> content, derived with permission from the original source at
+                <span id="ds-original-url"></span></p>
+            </div>
+        </div>
+    </body>
+</html>
+
